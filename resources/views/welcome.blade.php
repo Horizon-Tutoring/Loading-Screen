@@ -63,7 +63,7 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto" href="#hero">Home</a></li>
+		  <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
 		  <li><a class="nav-link scrollto" href="#services">Services</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
@@ -114,21 +114,19 @@
                 <i class="bx bx-store-alt"></i>
                 <div>
                   <h5>Talented Tutors</h5>
-                  <p>All of our tutors </p>
+                  <p>All of our tutors are of a high standard, to provide the most amazing service.</p>
                 </div>
               </li>
               <li>
                 <i class="bx bx-images"></i>
                 <div>
                   <h5>Flexable Session Schedule</h5>
-                  <p>Students provide</p>
+                  <p>Students are provided with multiple options to taylor to their needs.</p>
                 </div>
               </li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+              Further Description
             </p>
           </div>
         </div>
@@ -144,58 +142,43 @@
 
         <div class="section-title">
           <h2>Services</h2>
-          <h3>Check our <span>Services</span></h3>
-          <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+          <h3>Check out the <span>Services</span> we provide</h3>
+          <p>We provide a variety of services to cater for all students.</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4>Magni Dolores</h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4>Service 1</h4>
+              <p>Service 1 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4>Magni Dolores</h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4>Service 2</h4>
+              <p>Service 2 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4>Magni Dolores</h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4>Service 3</h4>
+			  <p>Service 3 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4>Magni Dolores</h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4>Service 4</h4>
+              <p>Service 4 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4>Magni Dolores</h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4>Magni Dolores</h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
-            </div>
-          </div>
 
         </div>
 
@@ -228,7 +211,7 @@
 				  <li class="na">Massa ultricies mi</li>
 				</ul>
 				<div class="btn-wrap">
-				  <a href="#" class="btn-buy">Buy Now</a>
+				  <a href="" class="btn-buy">Buy Now</a>
 				</div>
 			  </div>
 			</div>
@@ -245,7 +228,7 @@
 				  <li class="na">Massa ultricies mi</li>
 				</ul>
 				<div class="btn-wrap">
-				  <a href="#" class="btn-buy">Buy Now</a>
+				  <a href="" class="btn-buy">Buy Now</a>
 				</div>
 			  </div>
 			</div>
@@ -262,7 +245,7 @@
 				  <li>Massa ultricies mi</li>
 				</ul>
 				<div class="btn-wrap">
-				  <a href="#" class="btn-buy">Buy Now</a>
+				  <a href="" class="btn-buy">Buy Now</a>
 				</div>
 			  </div>
 			</div>
@@ -280,7 +263,7 @@
 				  <li>Massa ultricies mi</li>
 				</ul>
 				<div class="btn-wrap">
-				  <a href="#" class="btn-buy">Buy Now</a>
+				  <a href="" class="btn-buy">Buy Now</a>
 				</div>
 			  </div>
 			</div>
