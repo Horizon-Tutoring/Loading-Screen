@@ -1,80 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
-  <title>Horizon Tutoring - Coming in 2023</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
-
-  <!-- Favicons -->
-  <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
-  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
-  <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: BizLand - v3.9.1
-  * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  * Product was paid for under "Bizland Membership" subscription
-  ======================================================== -->
-</head>
-
+  @extends('app')
 <body>
 
-  <!-- ======= Top Bar ======= -->
-  <!-- <section id="topbar" class="d-flex align-items-center">
-    <div class="container d-flex justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">enquiry@horizontutoring.com</a></i>
-      </div>
-      <div class="social-links d-none d-md-flex align-items-center">
-        <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="/">Horizon <span>Tutoring</span><a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="/" class="logo"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>-->
-
-      <nav id="navbar" class="navbar">
-        <ul>
-		  <li><a class="nav-link scrollto" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-		  <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a style="color:brown" class="nav-link scrollto" href="#contact">Register Interest</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
+  @include('navbar')
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -105,7 +34,7 @@
             <img src="{{asset('assets/img/about.jpg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Personalised Approach</h3>
+            <h3>Personalised approach for your child</h3>
             <p class="fst-italic">
               We provide a number of differing services to cater to different student requirments. Inclusive of;
             </p>
@@ -137,45 +66,37 @@
 
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="steps" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <h3>Check out the <span>Services</span> we provide</h3>
-          <p>We provide a variety of services to cater for all students.</p>
+          <h2>Incredibly Easy Process</h2>
+          <h3>Easy navigation is our middle name!</h3>
+          <p>We have made it incredibly easy for you to begin your journey with us</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4>Service 1</h4>
-              <p>Service 1 Description which includes significant information about the service that can be selected</p>
+              <h4>Step 1</h4>
+              <p>Step 1 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4>Service 2</h4>
-              <p>Service 2 Description which includes significant information about the service that can be selected</p>
+              <h4>Step 2</h4>
+              <p>Step 2 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4>Service 3</h4>
-			  <p>Service 3 Description which includes significant information about the service that can be selected</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4>Service 4</h4>
-              <p>Service 4 Description which includes significant information about the service that can be selected</p>
+              <h4>Step 3</h4>
+			  <p>Step 3 Description which includes significant information about the service that can be selected</p>
             </div>
           </div>
 
@@ -194,14 +115,14 @@
 		  <div class="section-title">
 			<h2>Pricing</h2>
 			<h3>Check our <span>Pricing</span></h3>
-			<p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
+			<p>We provide competitive pricing on our range of services</p>
 		  </div>
   
 		  <div class="row">
   
-			<div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+			<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
 			  <div class="box">
-				<h3>Free</h3>
+				<h3>Service 1</h3>
 				<h4><sup>$</sup>0<span> / month</span></h4>
 				<ul>
 				  <li>Aida dere</li>
@@ -210,15 +131,12 @@
 				  <li class="na">Pharetra massa</li>
 				  <li class="na">Massa ultricies mi</li>
 				</ul>
-				<div class="btn-wrap">
-				  <a href="" class="btn-buy">Buy Now</a>
-				</div>
 			  </div>
 			</div>
   
-			<div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+			<div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
 			  <div class="box featured">
-				<h3>Business</h3>
+				<h3>Service 2</h3>
 				<h4><sup>$</sup>19<span> / month</span></h4>
 				<ul>
 				  <li>Aida dere</li>
@@ -227,15 +145,12 @@
 				  <li>Pharetra massa</li>
 				  <li class="na">Massa ultricies mi</li>
 				</ul>
-				<div class="btn-wrap">
-				  <a href="" class="btn-buy">Buy Now</a>
-				</div>
 			  </div>
 			</div>
   
-			<div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+			<div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
 			  <div class="box">
-				<h3>Developer</h3>
+				<h3>Service 3</h3>
 				<h4><sup>$</sup>29<span> / month</span></h4>
 				<ul>
 				  <li>Aida dere</li>
@@ -244,27 +159,6 @@
 				  <li>Pharetra massa</li>
 				  <li>Massa ultricies mi</li>
 				</ul>
-				<div class="btn-wrap">
-				  <a href="" class="btn-buy">Buy Now</a>
-				</div>
-			  </div>
-			</div>
-  
-			<div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-			  <div class="box">
-				<span class="advanced">Advanced</span>
-				<h3>Ultimate</h3>
-				<h4><sup>$</sup>49<span> / month</span></h4>
-				<ul>
-				  <li>Aida dere</li>
-				  <li>Nec feugiat nisl</li>
-				  <li>Nulla at volutpat dola</li>
-				  <li>Pharetra massa</li>
-				  <li>Massa ultricies mi</li>
-				</ul>
-				<div class="btn-wrap">
-				  <a href="" class="btn-buy">Buy Now</a>
-				</div>
 			  </div>
 			</div>
   
@@ -289,7 +183,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img">
-                <img src="{{asset('assets/img/team/team-1.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/gab.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -307,7 +201,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img">
-                <img src="{{asset('assets/img/team/team-2.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/joshua.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -325,7 +219,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img">
-                <img src="{{asset('assets/img/team/team-3.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/joe.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -343,7 +237,7 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img">
-                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="">
+                <img src="{{asset('assets/img/team/isabella.jpg')}}" class="img-fluid" alt=""  style="height: 300px;">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -358,47 +252,28 @@
             </div>
           </div>
 
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Register your Interest</h2>
-          <p>Interesting in joining us during 2023? </p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-12">
-            <form action="register-interest" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Name" required>
-                </div>
-                <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+              <div class="member-info">
+                <h4>Sabine</h4>
+                <span>Head of <b>TBC</b></span>
               </div>
-              <div class="text-center"><button disabled style="cursor: not-allowed;" type="submit">Register your Interest</button></div>
-            </form>
+            </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section><!-- End Team Section -->
 
   </main><!-- End #main -->
 
@@ -410,13 +285,9 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>BizLand<span>.</span></h3>
+            <h3>Horizon <span>Tutoring</span></h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> <a style="text-decoration: none;" href="mailto:contact@horizontutoring.com">info@horizontutoring.com</a><br>
             </p>
           </div>
 
@@ -460,14 +331,14 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Horizon Tutoring</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Horizon Tutoring</span></strong>. All Rights Reserved.
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bizland-bootstrap-business-template/ -->
-        Design by <a href="https://bootstrapmade.com/">BootstrapMade</a>.
+        Design by <a href="https://bootstrapmade.com/">BootstrapMade</a>. 
       </div>
     </div>
   </footer><!-- End Footer -->
