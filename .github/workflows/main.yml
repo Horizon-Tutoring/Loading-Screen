@@ -15,5 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
         server: sg2plzcpnl486124.prod.sin2.secureserver.net
-        username: home123@home.qfa100.org
+        username: github@qfa100.org
         password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: 'home/'
