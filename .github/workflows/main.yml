@@ -17,4 +17,4 @@ jobs:
         server: sg2plzcpnl486124.prod.sin2.secureserver.net
         username: github@qfa100.org
         password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: 'home/'
+        local-dir: 'Home/'
