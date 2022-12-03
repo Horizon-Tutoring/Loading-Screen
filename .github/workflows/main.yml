@@ -1,4 +1,4 @@
-name: 🚀 Deploy website on push
+name: 🚀 Loading Screen Code
 on: 
   push:
     branches:
@@ -17,3 +17,5 @@ jobs:
         server: sg2plzcpnl486124.prod.sin2.secureserver.net
         username: github@qfa100.org
         password: ${{ secrets.FTP_PASSWORD }}
+        timeout: 120000
+        server-dir: home/
