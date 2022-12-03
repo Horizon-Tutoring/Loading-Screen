@@ -18,4 +18,4 @@ jobs:
         username: github@qfa100.org
         password: ${{ secrets.FTP_PASSWORD }}
         timeout: 120000
-        server-dir: home/
+        server-dir: main/
