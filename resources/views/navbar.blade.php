@@ -31,7 +31,9 @@
 		      <li><a class="nav-link scrollto" href="/#steps">Steps</a></li>
           <li><a class="nav-link scrollto" href="/#pricing">Pricing</a></li>
           <li><a class="nav-link scrollto" href="/#team">Team</a></li>
-          <li><a style="color:brown" class="nav-link" href="#">Register Interest</a></li>
+          <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Register Interest
+          </button></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->

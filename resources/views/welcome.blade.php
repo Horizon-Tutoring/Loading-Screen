@@ -38,6 +38,63 @@
 
   @include('navbar')
 
+  @if(session('success'))
+    <div class="alert alert-success">
+        {{session('success')}}
+    </div>
+  @endif
+
+    <!-- Registration Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Register your interest in Horizon Tutoring!</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <form action="register" method="GET">
+            @csrf
+          <div class="modal-body">
+              <div class="mb-3">
+                <label for="Name" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" required>
+              </div>
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email Address</label>
+                <input type="email" class="form-control @error('f_name') is-invalid @enderror" name="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                @error('email')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+                @enderror
+              </div>
+
+              <div class="mb-3">
+                <label for="Students" class="form-label">Number of Children</label>
+                <select name="students" class="form-select">
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                  <option value="4">Four</option>
+                </select>
+              </div>
+
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" name="marketing" checked>
+                <label class="form-check-label" for="exampleCheck1">Recieve Marketing Material</label>
+              </div>
+              
+            
+          </div>
+          <div class="modal-footer">
+            <button type="button submit" class="btn btn-success">Register Interest</button>
+          </div>
+        </form>
+        </div>
+      </div>
+    </div>
+
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
