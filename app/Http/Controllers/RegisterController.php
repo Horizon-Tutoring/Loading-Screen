@@ -43,7 +43,6 @@ class RegisterController extends Controller
         ]);
 
         $user = User::all()->where('email', $request->input('email'))->flatten();
-        $user = $user[0];
 
         if(is_null($user)) {
             //Create New Registered User
@@ -56,7 +55,7 @@ class RegisterController extends Controller
 
             return redirect('/')->with('success', 'Congratulations! You have successfully registered your interest!');
         } else {
-            
+            $user = $user[0];
             $new = User::find($user->id);
             $new->name = $request->input('name');
             $new->email = $request->input('email');
