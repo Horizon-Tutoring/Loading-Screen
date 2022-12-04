@@ -17,6 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/register-interest', function () {
-    return view('interest-form');
-});
+Route::get('/register', 'App\Http\Controllers\RegisterController@store');
