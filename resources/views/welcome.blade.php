@@ -77,10 +77,13 @@
                   <option value="2">Two</option>
                   <option value="3">Three</option>
                   <option value="4">Four</option>
+                  <option value="5">Five</option>
+                  <option value="6">Six</option> 
                 </select>
               </div>
 
               <div class="mb-3 form-check">
+                <input type="hidden" class="form-check-input" name="marketing" value="off">
                 <input type="checkbox" class="form-check-input" name="marketing" checked>
                 <label class="form-check-label" for="exampleCheck1">Recieve Marketing Material</label>
               </div>
