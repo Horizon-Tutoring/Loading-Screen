@@ -5,7 +5,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
     <title>Horizon Tutoring - Coming in 2023</title>
-    <meta content="Here is a fun little test for our lord, Gab Wilson." name="description">
+    <meta content="At Horizon Tutoring, our mission is to help students of all ages and abilities achieve their academic goals. We offer a wide range of services, including one-on-one tutoring, homework help, and personalized learning plans. Our team of experienced tutors is dedicated to providing the best possible support to our students." name="description">
     <meta content="Tutoring, 1Strp1, Horizon Tutoring" name="keywords">
   
     <!-- Favicons -->
@@ -103,7 +103,6 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to Horizon <span>Tutoring</span></h1>
       <h2>The best service, at half the price.</h2>
-      <h5>Auth: {{Auth()->user()}}</h5>
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -157,7 +156,7 @@
       </div>
     </section><!-- End About Section -->
 
-
+{{-- 
 
     <!-- ======= Services Section ======= -->
     <section id="steps" class="services">
@@ -260,7 +259,7 @@
   
 		</div>
 	  </section><!-- End Pricing Section -->
-
+ --}}
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -276,8 +275,8 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <div class="member-img">
-                <img src="{{asset('assets/img/team/gab.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/gab.jpg')}}" class="img-fluid" alt="" >
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -294,8 +293,8 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="member-img">
-                <img src="{{asset('assets/img/team/joshua.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/joshua.jpg')}}" class="img-fluid" alt="" >
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -312,8 +311,8 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="member-img">
-                <img src="{{asset('assets/img/team/joe.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/joe.jpg')}}" class="img-fluid" alt="" >
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -330,8 +329,8 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
-              <div class="member-img">
-                <img src="{{asset('assets/img/team/isabella.jpg')}}" class="img-fluid" alt=""  style="height: 300px;">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/isabella.jpg')}}" class="img-fluid" alt="" >
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -348,8 +347,8 @@
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
-              <div class="member-img">
-                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" style="height: 300px;">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -359,7 +358,61 @@
               </div>
               <div class="member-info">
                 <h4>Sabine</h4>
-                <span>Head of <b>TBC</b></span>
+                <span>Director of <b>TBC</b></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Huggo</h4>
+                <span>Chief Technology Officer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Taryn</h4>
+                <span>Head of <b>Tutoring Program</b></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img" style="height: 300px; width 300px;">
+                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Stepan</h4>
+                <span>Chief Financial <b>Officer</b></span>
               </div>
             </div>
           </div>
@@ -390,26 +443,16 @@
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <p>Take a look at our social networks to keep up to date!</p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -425,7 +468,7 @@
 
     <div class="container py-4">
       <div class="copyright">
-        &copy; Copyright <strong><span>Horizon Tutoring</span></strong>. All Rights Reserved.
+        &copy; Copyright Horizon Tutoring 2022 @if(date('Y')>2022)-{{ date('Y') }}@endif
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

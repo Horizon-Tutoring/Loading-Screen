@@ -22,3 +22,5 @@ Route::get('/', function () {
 // });
 
 Route::get('/register', 'App\Http\Controllers\RegisterController@store');
+
+//Route::get('email', 'App\Http\Controllers\EmailController@index');

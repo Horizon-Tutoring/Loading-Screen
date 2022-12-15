@@ -62,7 +62,7 @@ class RegisterController extends Controller
             $data = [
                 //Email Variables (What is passed into the email template)
                 'view'=>'email.register-email',
-                'subject'=>'Welcome | Horizon Tutoring',
+                'subject'=>'Horizon Tutoring | Welcome Aboard',
                 'name'=>$request->input('name'),
                 'email'=>$request->input('email'),
                 'marketing'=>$request->input('marketing'),
@@ -83,12 +83,17 @@ class RegisterController extends Controller
 
             //Email Information about registration!
             $data = [
-                'subject'=>'Update to your Horizon Tutoring Interest Account'
+                'view'=>'email.register-update',
+                'subject'=>'Horizon Tutoring | Account Update',
+                'name'=>$request->input('name'),
+                'email'=>$request->input('email'),
+                'marketing'=>$request->input('marketing'),
+                'students'=>$request->input('students')
             ];
             Mail::to($request->input('email'))->send(new RegisterMail($data));
             return response()->json(['User has been created and email has been sent!']);
         
-            return redirect('/')->with('success', 'Congratulations! You have successfully registered your interest!');
+            return redirect('/')->with('success', 'Congratulations! We have now updated your details!');
         }
         
     }
