@@ -19,3 +19,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         timeout: 120000
         server-dir: horizontutoring.com.au/main/
+        dangerous-clean-slate: true
