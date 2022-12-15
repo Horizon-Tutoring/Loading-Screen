@@ -103,6 +103,7 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to Horizon <span>Tutoring</span></h1>
       <h2>The best service, at half the price.</h2>
+      <h5>Auth: {{Auth()->user()}}</h5>
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
