@@ -17,4 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// Route::get('/admin/artisan/migrate', function () {
+//     Artisan::call('migrate:refresh');
+// });
+
 Route::get('/register', 'App\Http\Controllers\RegisterController@store');

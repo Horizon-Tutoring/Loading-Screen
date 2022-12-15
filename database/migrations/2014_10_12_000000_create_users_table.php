@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('no_of_students');
-            $table->string('marketing');
+            $table->string('marketing')->nullable();
             $table->timestamps();
         });
     }
