@@ -71,7 +71,7 @@
         <p><strong>Email:</strong> {{$data['email']}}</p>
         <p><strong>Marketing:</strong> {{$data['marketing']}}@if($data['marketing']=="") off @endif</p>
         <p><strong>Number of Students:</strong> {{$data['students']}}</p><br>
-        <a style="text-decoration: none; text-color: white;"href="mailto:noreply.horizontutoring@gmail.com" class="cta">Contact Us</a><br><br>
+        <a style="text-decoration: none; text-color: white;"href="mailto:info@horizontutoring.com.au" class="cta">Contact Us</a><br><br>
     </div><br>
     
     

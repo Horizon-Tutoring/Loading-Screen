@@ -7,12 +7,12 @@
       {{-- <div class="contact-info d-flex align-items-center">
         <i style="color: gold;;"><b>Illistrative Purposes Only! Not for consumer use.</b></i>
       </div> --}}
-      <div class="social-links d-none d-md-flex align-items-center">
+      {{-- <div class="social-links d-none d-md-flex align-items-center">
         <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div>
+      </div> --}}
     </div>
   </section>
 
@@ -32,7 +32,7 @@
           <li><a class="nav-link scrollto" href="/#pricing">Pricing</a></li> --}}
           <li><a class="nav-link scrollto" href="/#team">Team</a></li>
           <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Register Interest
+            Register Your Interest
           </button></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
