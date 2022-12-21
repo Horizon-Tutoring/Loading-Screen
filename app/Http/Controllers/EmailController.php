@@ -21,7 +21,7 @@ class EmailController extends Controller
             'students'=>'4'
         ];
 
-        return view('email.register-email')->with('data', $data);
+        return view('email.admin-email')->with('data', $data);
     }
 
     /**

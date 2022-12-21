@@ -30,7 +30,7 @@ class RegisterMail extends Mailable
      */
     public function build()
     {
-        return $this->from('noreply.horizontutoring@gmail.com', 'Horizon Tutoring')
+        return $this->from(env('MAIL_FROM_ADDRESS'), env('MAIL_FROM_NAME'))
                     ->subject($this->data['subject'])
                     ->view($this->data['view'])->with('data', $this->data);
     }

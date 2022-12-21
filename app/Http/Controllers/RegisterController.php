@@ -60,7 +60,6 @@ class RegisterController extends Controller
 
             //Email Information about registration!
             $data = [
-                //Email Variables (What is passed into the email template)
                 'view'=>'email.register-email',
                 'subject'=>'Horizon Tutoring | Welcome Aboard',
                 'name'=>$request->input('name'),
@@ -69,6 +68,18 @@ class RegisterController extends Controller
                 'students'=>$request->input('students')
             ];
             Mail::to($request->input('email'))->send(new RegisterMail($data));
+
+            //Email Executives about Registration!
+            $email = 'executives@horizontutoring.com.au';
+            $data2 = [
+                'view'=>'email.admin-email',
+                'subject'=>'Horizon Tutoring | New Customer Registered',
+                'name'=>$request->input('name'),
+                'email'=>'executives@horizontutoring.com.au',
+                'marketing'=>$request->input('marketing'),
+                'students'=>$request->input('students')
+            ];
+            Mail::to($email)->send(new RegisterMail($data2));
 
             return redirect('/')->with('success', 'Congratulations! You have successfully registered your interest!');
             
@@ -91,8 +102,20 @@ class RegisterController extends Controller
                 'students'=>$request->input('students')
             ];
             Mail::to($request->input('email'))->send(new RegisterMail($data));
-            return response()->json(['User has been created and email has been sent!']);
-        
+
+            //Email Executives about Registration!
+            $email = 'executives@horizontutoring.com.au';
+            $data2 = [
+                'view'=>'email.admin-email',
+                'subject'=>'Horizon Tutoring | New Customer Registered',
+                'name'=>$request->input('name'),
+                'email'=>'executives@horizontutoring.com.au',
+                'marketing'=>$request->input('marketing'),
+                'students'=>$request->input('students')
+            ];
+            Mail::to($email)->send(new RegisterMail($data2));
+            
+            //Return page
             return redirect('/')->with('success', 'Congratulations! We have now updated your details!');
         }
         

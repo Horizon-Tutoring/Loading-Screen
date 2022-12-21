@@ -5,8 +5,8 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
     <title>Horizon Tutoring - Coming in 2023</title>
-    <meta content="At Horizon Tutoring, our mission is to help students of all ages and abilities achieve their academic goals. We offer a wide range of services, including one-on-one tutoring, homework help, and personalized learning plans. Our team of experienced tutors is dedicated to providing the best possible support to our students." name="description">
-    <meta content="Tutoring, 1Strp1, Horizon Tutoring" name="keywords">
+    <meta content=" At Horizon Tutoring, our mission is to help students of all ages and abilities achieve their academic goals. We offer a wide range of services, including one-on-one tutoring, homework help, and personalized learning plans. Our team of experienced tutors is dedicated to providing the best possible support to our students." name="description">
+    <meta content="Tutoring, 1Strp1, Horizon Tutoring, Horizon, Tutoring Horizon" name="keywords">
   
     <!-- Favicons -->
     <link href="{{asset('assets/img/favicon.png')}}" rel="icon">
@@ -102,7 +102,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to Horizon <span>Tutoring</span></h1>
-      <h2>The best service, at half the price.</h2>
+      <h2>The best tutoring service, at half the cost!</h2>
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -129,7 +129,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3>Personalised approach for your child</h3>
             <p class="fst-italic">
-              We provide a number of differing services to cater to different student requirments. Inclusive of;
+              We provide multiple different services to cater to different student requirements. Inclusive of;
             </p>
             <ul>
               <li>
@@ -143,12 +143,12 @@
                 <i class="bx bx-images"></i>
                 <div>
                   <h5>Flexable Session Schedule</h5>
-                  <p>Students are provided with multiple options to taylor to their needs.</p>
+                  <p>Students are provided with multiple options to tailor to their needs.</p>
                 </div>
               </li>
             </ul>
             <p>
-              Further Description
+              We provide different services, tailor-made to help your children to achieve the most possible.
             </p>
           </div>
         </div>
@@ -268,7 +268,7 @@
         <div class="section-title">
           <h2>Our Team</h2>
           <h3>Our Hardworking <span>Team</span></h3>
-          <p>Take a look at the team making Horion Tutoring possible</p>
+          <p>Take a look at the team making Horizon Tutoring possible</p>
         </div>
 
         <div class="row">
@@ -276,13 +276,13 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/gab.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                <img src="{{asset('assets/img/team/Gab.jpg')}}" class="img-fluid" alt="" >
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Gab Wilson</h4>
@@ -294,13 +294,13 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/joshua.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                <img src="{{asset('assets/img/team/Joshua.jpg')}}" class="img-fluid" alt="" >
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Joshua Micallef</h4>
@@ -312,13 +312,13 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/joe.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                <img src="{{asset('assets/img/team/Joe.jpg')}}" class="img-fluid" alt="" >
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Joe</h4>
@@ -330,13 +330,13 @@
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/isabella.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                <img src="{{asset('assets/img/team/Isabella.jpg')}}" class="img-fluid" alt="" >
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Isabella</h4>
@@ -345,7 +345,7 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+          {{-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
@@ -361,18 +361,18 @@
                 <span>Director of <b>TBC</b></span>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Huggo</h4>
@@ -385,16 +385,16 @@
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Taryn</h4>
-                <span>Head of <b>Tutoring Program</b></span>
+                <span>Head of Tutoring Program</span>
               </div>
             </div>
           </div>
@@ -403,16 +403,16 @@
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
+                {{-- <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
+                </div> --}}
               </div>
               <div class="member-info">
                 <h4>Stepan</h4>
-                <span>Chief Financial <b>Officer</b></span>
+                <span>Chief Financial Officer</span>
               </div>
             </div>
           </div>
@@ -450,7 +450,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          {{-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <p>Take a look at our social networks to keep up to date!</p>
             <div class="social-links mt-3">
@@ -460,7 +460,7 @@
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
-          </div>
+          </div> --}}
 
         </div>
       </div>
