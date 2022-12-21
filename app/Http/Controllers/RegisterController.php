@@ -102,18 +102,6 @@ class RegisterController extends Controller
                 'students'=>$request->input('students')
             ];
             Mail::to($request->input('email'))->send(new RegisterMail($data));
-
-            //Email Executives about Registration!
-            $email = 'executives@horizontutoring.com.au';
-            $data2 = [
-                'view'=>'email.admin-email',
-                'subject'=>'Horizon Tutoring | New Customer Registered',
-                'name'=>$request->input('name'),
-                'email'=>'executives@horizontutoring.com.au',
-                'marketing'=>$request->input('marketing'),
-                'students'=>$request->input('students')
-            ];
-            Mail::to($email)->send(new RegisterMail($data2));
             
             //Return page
             return redirect('/')->with('success', 'Congratulations! We have now updated your details!');
