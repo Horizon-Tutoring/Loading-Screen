@@ -268,21 +268,21 @@
         <div class="section-title">
           <h2>Our Team</h2>
           <h3>Our Hardworking <span>Team</span></h3>
-          <p>Take a look at the team making Horizon Tutoring possible</p>
+          <p>Take a look at the team brining you Horizon Tutoring in 2023!</p>
         </div>
 
-        <div class="row">
+        {{-- <div class="row">
 
           <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/Gab.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
+                <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+                </div>
               </div>
               <div class="member-info">
                 <h4>Gab Wilson</h4>
@@ -295,12 +295,12 @@
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/Joshua.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
+                <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+                </div>
               </div>
               <div class="member-info">
                 <h4>Joshua Micallef</h4>
@@ -313,12 +313,12 @@
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/Joe.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
+                <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+                </div>
               </div>
               <div class="member-info">
                 <h4>Joe</h4>
@@ -331,24 +331,6 @@
             <div class="member">
               <div class="member-img" style="height: 300px; width 300px;">
                 <img src="{{asset('assets/img/team/Isabella.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
-              </div>
-              <div class="member-info">
-                <h4>Isabella</h4>
-                <span>Director of Tutoring</span>
-              </div>
-            </div>
-          </div>
-
-          {{-- <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -357,68 +339,87 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sabine</h4>
-                <span>Director of <b>TBC</b></span>
-              </div>
-            </div>
-          </div> --}}
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
-              </div>
-              <div class="member-info">
-                <h4>Huggo</h4>
-                <span>Chief Technology Officer</span>
+                <h4>Isabella</h4>
+                <span>Director of Tutoring</span>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+        </div> --}}
+        <div class="container" style="text-align: center">
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Gab Wilson</b></h3>
+                  <h6 class="card-text"><i>CEO & Founder</i></h6>
+                </div>
               </div>
-              <div class="member-info">
-                <h4>Taryn</h4>
-                <span>Head of Tutoring Program</span>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Hugh</b></h3>
+                  <h6 class="card-text"><i>Director of Technology</i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Stepan</b></h3>
+                  <h6 class="card-text"><i>Director of Finance</i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Isabella</b></h3>
+                  <h6 class="card-text"><i>Director of Tutoring</i></h6>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/team-4.jpg')}}" class="img-fluid" alt="" >
-                {{-- <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div> --}}
+          <div class="row">
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Joe</b></h3>
+                  <h6 class="card-text"><i>Director of Human Resources</i></h6>
+                </div>
               </div>
-              <div class="member-info">
-                <h4>Stepan</h4>
-                <span>Chief Financial Officer</span>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Joshua Micallef</b></h3>
+                  <h6 class="card-text"><i>Head Developer</i></h6>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Sabine</b></h3>
+                  <h6 class="card-text"><i>Team Member</i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Taryn</b></h3>
+                  <h6 class="card-text"><i>Head of Tutoring</i></h6>
+                </div>
               </div>
             </div>
           </div>
+
 
         </div>
-
       </div>
     </section><!-- End Team Section -->
 
