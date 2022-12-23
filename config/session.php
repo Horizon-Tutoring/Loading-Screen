@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'domain' => '.tutoringhorizon.com',
+    'domain' => env('SESSION_DOMAIN'),
 
     /*
     |--------------------------------------------------------------------------
