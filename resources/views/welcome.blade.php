@@ -359,7 +359,7 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Hugh</b></h3>
+                  <h3 class="card-title"><b>Hugo Burton</b></h3>
                   <h6 class="card-text"><i>Director of Technology</i></h6>
                 </div>
               </div>
@@ -367,7 +367,7 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Stepan</b></h3>
+                  <h3 class="card-title"><b>Stepan Tkatchenko</b></h3>
                   <h6 class="card-text"><i>Director of Finance</i></h6>
                 </div>
               </div>
@@ -375,7 +375,7 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Isabella</b></h3>
+                  <h3 class="card-title"><b>Isabella Chantrill</b></h3>
                   <h6 class="card-text"><i>Director of Tutoring</i></h6>
                 </div>
               </div>
@@ -386,7 +386,7 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Joe</b></h3>
+                  <h3 class="card-title"><b>Joe Grew</b></h3>
                   <h6 class="card-text"><i>Director of Human Resources</i></h6>
                 </div>
               </div>
@@ -399,19 +399,10 @@
                 </div>
               </div>
             </div>
-            
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Sabine</b></h3>
-                  <h6 class="card-text"><i>Team Member</i></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Taryn</b></h3>
+                  <h3 class="card-title"><b>Taryn Morley</b></h3>
                   <h6 class="card-text"><i>Head of Tutoring</i></h6>
                 </div>
               </div>
@@ -435,16 +426,16 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>Horizon <span>Tutoring</span></h3>
             <p>
-              <strong>Email:</strong> <a style="text-decoration: none;" href="mailto:contact@horizontutoring.com">info@horizontutoring.com</a><br>
+              <strong>Email:</strong> <a style="text-decoration: none;" href="mailto:info@horizontutoring.com.au">info@horizontutoring.com.au</a><br>
             </p>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Team</a></li>
+              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#hero">Home</a></li>
+              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#about">About us</a></li>
+              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#team">Team</a></li>
             </ul>
           </div>
 
