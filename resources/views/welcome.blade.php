@@ -26,6 +26,15 @@
     <!-- Template Main CSS File -->
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
   
+    <style>
+      .x {
+          color: red;
+      }
+
+      .check {
+          color: green;
+      }
+    </style>
     <!-- =======================================================
     * Template Name: BizLand - v3.9.1
     * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
@@ -55,12 +64,15 @@
           <form action="register" method="GET">
             @csrf
           <div class="modal-body">
+              {{-- Name Section --}}
               <div class="mb-3">
-                <label for="Name" class="form-label">Name</label>
+                <label for="Name" class="form-label">Your Name*</label>
                 <input type="text" class="form-control" name="name" required>
               </div>
+
+              {{-- Email Address --}}
               <div class="mb-3">
-                <label for="Email" class="form-label">Email Address</label>
+                <label for="Email" class="form-label">Email Address*</label>
                 <input type="email" class="form-control @error('f_name') is-invalid @enderror" name="email" aria-describedby="emailHelp" required>
                 <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 @error('email')
@@ -70,6 +82,13 @@
                 @enderror
               </div>
 
+              {{-- Phone Number --}}
+              <div class="mb-3">
+                <label for="number" class="form-label">Phone Number*</label>
+                <input type="tel" class="form-control" name="number" required>
+              </div>
+
+              {{-- # of Children --}}
               <div class="mb-3">
                 <label for="Students" class="form-label">Number of Children</label>
                 <select name="students" class="form-select">
@@ -82,14 +101,14 @@
                 </select>
               </div>
 
-              <div class="mb-3 form-check">
-                <input type="hidden" class="form-check-input" name="marketing" value="off">
-                <input type="checkbox" class="form-check-input" name="marketing" checked>
-                <label class="form-check-label" for="exampleCheck1">Recieve Marketing Material</label>
-              </div>
-              
-            
-          </div>
+              {{-- Textarea --}}
+              <div class="mb-3">
+                <label for="text" class="form-label">Put any questions here</label>
+                <textarea maxlength="500" class="form-control" name="text" required></textarea>
+                <div id="emailHelp" class="form-text">Max 1,000 characters</div>
+              </div>            
+            </div>
+
           <div class="modal-footer">
             <button type="button submit" class="btn btn-success">Register Interest</button>
           </div>
@@ -101,10 +120,10 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
-      <h1>Welcome to Horizon <span>Tutoring</span></h1>
-      <h2>The best tutoring service, at half the cost!</h2>
-      <div class="d-flex">
-        <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <h1>Welcome to</h1>
+      <h1>Horizon <span>Tutoring</span></h1>
+      <div class="d-flex" style="margin-top: 20px;">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Your Interest</button>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
       </div>
     </div>
@@ -127,36 +146,40 @@
             <img src="{{asset('assets/img/about.jpg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Personalised approach for your child</h3>
+            <h3>We care about our students.</h3>
             <p class="fst-italic">
-              We provide multiple different services to cater to different student requirements. Inclusive of;
+              At Horizon Tutoring, we know you want the best for your child. So do we. That’s why we’ve built our services from the ground up to be the highest quality while being budget-friendly. 
             </p>
             <ul>
               <li>
-                <i class="bx bx-store-alt"></i>
+                <i class="bx bx-chalkboard"></i>
                 <div>
-                  <h5>Talented Tutors</h5>
-                  <p>All of our tutors are of a high standard, to provide the most amazing service possible to your child.</p>
+                  <h5>Top Tier Tutors</h5>
+                  <p>Our tutors have been handpicked from high ATAR achievers, qualified educators, and experts in their fields.</p>
                 </div>
               </li>
               <li>
-                <i class="bx bx-images"></i>
+                <i class="bx bx-laptop"></i>
                 <div>
-                  <h5>Flexable Session Schedule</h5>
-                  <p>Students are provided with multiple options to tailor to their needs.</p>
+                  <h5>Online flexibility</h5>
+                  <p>We understand how busy life can be. Our online tutors can accommodate a wide variety of times so you can always get your session in.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-calendar"></i>
+                <div>
+                  <h5>Personalised Sessions</h5>
+                  <p>Every child is unique. That’s why our tutors expertly tailor every session to your child to help them work at their best.</p>
                 </div>
               </li>
             </ul>
-            <p>
-              We provide different services, tailor-made to help your children to achieve the most possible.
-            </p>
           </div>
         </div>
 
       </div>
     </section><!-- End About Section -->
 
-{{-- 
+
 
     <!-- ======= Services Section ======= -->
     <section id="steps" class="services">
@@ -206,52 +229,63 @@
 		<div class="container" data-aos="fade-up">
   
 		  <div class="section-title">
-			<h2>Pricing</h2>
-			<h3>Check our <span>Pricing</span></h3>
-			<p>We provide competitive pricing on our range of services</p>
+			<h2>Services</h2>
+			<h3>What we <span>Offer</span></h3>
+			<p>we provide competitive tutoring services with a range of offerings.</p>
 		  </div>
   
 		  <div class="row">
-  
+       
 			<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
 			  <div class="box">
-				<h3>Service 1</h3>
-				<h4><sup>$</sup>0<span> / month</span></h4>
+          <h3 style="font-size: 30px;">Silver Package</h3>
 				<ul>
-				  <li>Aida dere</li>
-				  <li>Nec feugiat nisl</li>
-				  <li>Nulla at volutpat dola</li>
-				  <li class="na">Pharetra massa</li>
-				  <li class="na">Massa ultricies mi</li>
+				  <li>Regular Weekly Session <x class="check">✔</x></li>
+				  <li>Subject Session included <x class="check">✔</x></li>
+				  <li>Drafting Service Included <x class="x">✘</x></li>
+				</ul>
+
+        <p><b>Includes:</b></p>
+        <ul>
+          <li>1x Regular Session</li>
+          <li>1x Subject Session</li>
 				</ul>
 			  </div>
 			</div>
   
 			<div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
 			  <div class="box featured">
-				<h3>Service 2</h3>
-				<h4><sup>$</sup>19<span> / month</span></h4>
+				<h3 style="font-size: 30px;">Gold Package</h3>
 				<ul>
-				  <li>Aida dere</li>
-				  <li>Nec feugiat nisl</li>
-				  <li>Nulla at volutpat dola</li>
-				  <li>Pharetra massa</li>
-				  <li class="na">Massa ultricies mi</li>
+				  <li>Regular Weekly Session <x class="check">✔</x></li>
+				  <li>Subject Session included <x class="check">✔</x></li>
+				  <li>Drafting Service Included <x class="check">✔</x></li>
+				</ul>
+
+        <p><b>Includes:</b></p>
+        <ul>
+          <li>1x Regular Session</li>
+          <li>2x Subject Session</li>
+          <li>1x Comprehensive Draft Review</li>
 				</ul>
 			  </div>
 			</div>
   
 			<div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
 			  <div class="box">
-				<h3>Service 3</h3>
-				<h4><sup>$</sup>29<span> / month</span></h4>
-				<ul>
-				  <li>Aida dere</li>
-				  <li>Nec feugiat nisl</li>
-				  <li>Nulla at volutpat dola</li>
-				  <li>Pharetra massa</li>
-				  <li>Massa ultricies mi</li>
-				</ul>
+          <h3 style="font-size: 30px;">Platinum Package</h3>
+          <ul>
+            <li>Regular Weekly Session <x class="check">✔</x></li>
+            <li>Subject Session included <x class="check">✔</x></li>
+            <li>Drafting Service Included <x class="check">✔</x></li>
+          </ul>
+  
+          <p><b>Includes:</b></p>
+          <ul>
+            <li>1x Regular Session</li>
+            <li>4x Subject Session</li>
+            <li>2x Comprehensive Draft Review</li>
+          </ul>
 			  </div>
 			</div>
   
@@ -259,7 +293,7 @@
   
 		</div>
 	  </section><!-- End Pricing Section -->
- --}}
+
 
     <!-- ======= Team Section ======= -->
     <section id="team" class="team">
@@ -270,82 +304,6 @@
           <h3>Our Hardworking <span>Team</span></h3>
           <p>Take a look at the team brining you Horizon Tutoring in 2023!</p>
         </div>
-
-        {{-- <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/Gab.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Gab Wilson</h4>
-                <span>Founder & Executive Director</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/Joshua.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Joshua Micallef</h4>
-                <span>Director of Technology</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/Joe.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Joe</h4>
-                <span>Director of Human Resources</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="member">
-              <div class="member-img" style="height: 300px; width 300px;">
-                <img src="{{asset('assets/img/team/Isabella.jpg')}}" class="img-fluid" alt="" >
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Isabella</h4>
-                <span>Director of Tutoring</span>
-              </div>
-            </div>
-          </div>
-
-        </div> --}}
         <div class="container" style="text-align: center">
           <div class="row">
             <div class="col-md-3 mb-3">
@@ -356,14 +314,14 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-3 mb-3">
+            {{-- <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
                   <h3 class="card-title"><b>Hugo Burton</b></h3>
                   <h6 class="card-text"><i>Director of Technology</i></h6>
                 </div>
               </div>
-            </div>
+            </div> --}}
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
@@ -427,6 +385,7 @@
             <h3>Horizon <span>Tutoring</span></h3>
             <p>
               <strong>Email:</strong> <a style="text-decoration: none;" href="mailto:info@horizontutoring.com.au">info@horizontutoring.com.au</a><br>
+              <strong>ABN:</strong> 1134 3032 298<br>
             </p>
           </div>
 
@@ -442,7 +401,7 @@
           <div class="col-lg-3 col-md-6 footer-links">
           </div>
 
-          {{-- <div class="col-lg-3 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Social Networks</h4>
             <p>Take a look at our social networks to keep up to date!</p>
             <div class="social-links mt-3">
@@ -452,7 +411,7 @@
               <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
-          </div> --}}
+          </div>
 
         </div>
       </div>

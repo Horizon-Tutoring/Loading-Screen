@@ -17,8 +17,10 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('email');
-            $table->string('no_of_students');
-            $table->string('marketing')->nullable();
+            $table->string('number');
+            $table->integer('no_of_students')->nullable();
+            $table->string('comments', 1000)->nullable();
+            $table->integer('marketing');
             $table->timestamps();
         });
     }
