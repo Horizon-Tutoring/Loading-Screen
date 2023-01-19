@@ -23,4 +23,6 @@ Route::get('/', function () {
 
 Route::get('/register', 'App\Http\Controllers\RegisterController@store');
 
+Route::get('/unsubscribe/{id}', 'App\Http\Controllers\Subscribe@update');
+
 //Route::get('email', 'App\Http\Controllers\EmailController@index');

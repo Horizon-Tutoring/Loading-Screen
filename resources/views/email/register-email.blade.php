@@ -59,15 +59,15 @@
 <body>
   <div class="logo">
     {{-- <img src="https://example.com/logo.png" alt="Company Logo"> --}}
-    <h1>Horizon Tutoring - Coming in 2023</h1>
+    <h1>Welcome to Horizon Tutoring</h1>
   </div>
   <div class="content">
     <h1>Welcome to our company, {{$data['name']}}!</h1>
     <p>
-      We would like to extend a warm welcome to you as the newest members of our growing community.<br><br>
+      We would like to extend a warm welcome to you as the newest member of our growing community.<br><br>
       
       We would like to take this opportunity to introduce ourselves and our company, Horizon Tutoring. 
-      As a new start-up, we are excited to begin providing high-quality tutoring services to students in the 2023 school year.<br><br>
+      We are excited to provide high-quality tutoring services to students in the 2023 school year.<br><br>
 
       At Horizon Tutoring, our mission is to help students of all ages and abilities achieve their academic goals. 
       We offer a wide range of services, including one-on-one tutoring, homework help, and personalized learning plans. 
@@ -78,26 +78,24 @@
       
     <div class="signup-details" style="padding-left:20px;">
         <h4><b>Your Details:</b></h4>
-        <p><strong>Username:</strong> {{$data['name']}}</p>
+        <p><strong>Name:</strong> {{$data['name']}}</p>
         <p><strong>Email:</strong> {{$data['email']}}</p>
-        <p><strong>Marketing:</strong> {{$data['marketing']}}@if($data['marketing']=="") off @endif</p>
+        <p><strong>Number:</strong> {{$data['number']}}</p>
         <p><strong>Number of Students:</strong> {{$data['students']}}</p><br>
-        <a href="mailto:info@horizontutoring.com.au" class="cta">Contact Us</a><br><br>
+        <p><strong>Comments:</strong> {{$data['comments']}}</p><br>
+        <a color="black" href="mailto:info@horizontutoring.com.au" class="cta">Questions? Contact Us</a><br><br>
     </div><br>
     
-    We look forward to a bright future with you.<br><br>
+    <p>We look forward to a bright future with you.<br><br>
     <b>Regards,<br>
-    The Horizon Tutoring Executive Team.</b></p>
+    The Horizon Tutoring Team.</b></p>
   </div>
   <div class="footer">
     <p>
-        @if($data['marketing'] == 'on')
-        As you have slected to be updated with marketing materials, we will provide updates on our company progress in the future! You will recieve these via email.
-        @else
-        Keep up to date on the Horizon Tutoring website for details of when we will be going live!
-        @endif
+        We will keep you updated on Horizon Tutorings progress over the coming weeks! You will recieve these via your registered email address.
         Should you wish to update any of your details with us, please resubmit your interest with the same email address, and your details will be automatically updated.
         <br><br>
+        Should you no longer wish to recieve these emails, please click <a href="http://horizontutoring.com.au/unsubscribe/{{$data['userinfo']}}">here</a> to unsubscribe from this service<br><br>
         Copyright Horizon Tutoring 2022 @if(date('Y')>2022)-{{ date('Y') }}@endif. All Rights Reserved.
     </p>
 </div>

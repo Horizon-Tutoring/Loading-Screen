@@ -11,6 +11,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  height: 100%;
 }
 
 a {
@@ -30,6 +31,10 @@ h4,
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
+}
+
+#top {
+
 }
 
 /*--------------------------------------------------------------
@@ -465,20 +470,24 @@ h6 {
   display: block;
 }
 
+
+
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero {
-  width: 100%;
+#top {
   height: 75vh;
-  background: url("../img/hero-bg.jpg") top left;
+  background-image: url("../img/logo.svg");
   background-size: cover;
+  background-position: 85%;
+  background-size: 45vw;
+  background-repeat: no-repeat;
   position: relative;
 }
 
-#hero:before {
+#top:before {
   content: "";
-  background: rgba(255, 255, 255, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -486,31 +495,27 @@ h6 {
   right: 0;
 }
 
-#hero .container {
-  position: relative;
-}
-
-#hero h1 {
+#top h1 {
   margin: 0;
-  font-size: 48px;
+  font-size: 2vw;
   font-weight: 700;
-  line-height: 56px;
-  color: #222222;
+  line-height: 5vh;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
-#hero h1 span {
-  color: #106eea;
+#top h1 span {
+  color: #D8B03B;
 }
 
-#hero h2 {
+#top h2 {
   color: #555555;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
 }
 
-#hero .btn-get-started {
+#top .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -524,11 +529,11 @@ h6 {
   background: #106eea;
 }
 
-#hero .btn-get-started:hover {
+#top .btn-get-started:hover {
   background: #247cf0;
 }
 
-#hero .btn-watch-video {
+#top .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -538,7 +543,7 @@ h6 {
   align-items: center;
 }
 
-#hero .btn-watch-video i {
+#top .btn-watch-video i {
   color: #106eea;
   font-size: 32px;
   transition: 0.3s;
@@ -546,11 +551,11 @@ h6 {
   margin-right: 8px;
 }
 
-#hero .btn-watch-video:hover {
+#top .btn-watch-video:hover {
   color: #106eea;
 }
 
-#hero .btn-watch-video:hover i {
+#top .btn-watch-video:hover i {
   color: #3b8af2;
 }
 

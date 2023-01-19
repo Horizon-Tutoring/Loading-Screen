@@ -23,15 +23,21 @@
 		<h1 style="color: #E27D60; font-size: 28px; margin-bottom: 20px;">New Customer Registration</h1>
 		<div class="content">
 		<p>Hello Executive Team,</p>
-		<p>We have received a new customer registration from <strong style="color: #E27D60;">{{$data['name']}}</strong> who is interested in using our services when we open. They have indicated that they will be registering <strong style="color: #E27D60;">{{$data['students']}}</strong> students.</p>
+		<p>We have received a new customer registration. We now have {{$data['count']}} interested families, with a potential of {{$data['total_students']}} students.
+			<h4><b>The Details:</b></h4>
+			<p><strong>Name:</strong> {{$data['name']}}</p>
+			<p><strong>Email:</strong> {{$data['email']}}</p>
+			<p><strong>Number:</strong> {{$data['number']}}</p>
+			<p><strong>Number of Students:</strong> {{$data['students']}}</p><br>
+			<p><strong>Comments:</strong> {{$data['comments']}}</p><br>
 		<br><p>Thank you,</p>
 		<p>Horizon Tutoring Admin System</p>
 		</div>
 		<div class="footer">
 			<p><i>
-				This email was automatically sent by Horizon Tutoring's Admin System. Please do not reply to this email.<br><br>
+				This email was automatically sent by Horizon Tutoring's Admin System to Executive Members. Please do not reply to this email.<br><br>
 				
-				Copyright Horizon Tutoring 2022 @if(date('Y')>2022)-{{ date('Y') }}@endif. All Rights Reserved.
+				Copyright Horizon Tutoring 2022 @if(date('Y')>2022)- {{ date('Y') }}@endif. All Rights Reserved.
 			</i></p>
 		</div>
 	</div>
