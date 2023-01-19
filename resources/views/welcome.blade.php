@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   
-    <title>Horizon Tutoring - Coming in 2023</title>
+    <title>Horizon Tutoring - Coming Soon</title>
     <meta content=" At Horizon Tutoring, our mission is to help students of all ages and abilities achieve their academic goals. We offer a wide range of services, including one-on-one tutoring, homework help, and personalized learning plans. Our team of experienced tutors is dedicated to providing the best possible support to our students." name="description">
     <meta content="Tutoring, 1Strp1, Horizon Tutoring, Horizon, Tutoring Horizon" name="keywords">
   
@@ -118,12 +118,12 @@
     </div>
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+  <section id="top" class="d-flex align-items-center" style="background-color: #152f78;">
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to</h1>
       <h1>Horizon <span>Tutoring</span></h1>
-      <div class="d-flex" style="margin-top: 20px;">
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Your Interest</button>
+      <div class="d-flex" style="margin-top: 20px; text-align: center;">
+        <button type="button" class="btn btn-primary" style="border-color: #D8B03B; width: 15vw; font-size: 2vw; border-width: 0.7vh; background-color: white; color: black" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Your Interest</button>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
       </div>
     </div>
@@ -143,7 +143,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="{{asset('assets/img/about.jpg')}}" class="img-fluid" alt="">
+            <img src="{{asset('assets/img/about2.jpg')}}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3>We care about our students.</h3>
@@ -159,17 +159,17 @@
                 </div>
               </li>
               <li>
-                <i class="bx bx-laptop"></i>
-                <div>
-                  <h5>Online flexibility</h5>
-                  <p>We understand how busy life can be. Our online tutors can accommodate a wide variety of times so you can always get your session in.</p>
-                </div>
-              </li>
-              <li>
                 <i class="bx bx-calendar"></i>
                 <div>
                   <h5>Personalised Sessions</h5>
                   <p>Every child is unique. That’s why our tutors expertly tailor every session to your child to help them work at their best.</p>
+                </div>
+              </li>
+              <li>
+                <i class="bx bx-laptop"></i>
+                <div>
+                  <h5>Online flexibility</h5>
+                  <p>We understand how busy life can be. Our online tutors can accommodate a wide variety of times so you can always get your session in.</p>
                 </div>
               </li>
             </ul>
@@ -249,6 +249,7 @@
         <ul>
           <li>1x Regular Session</li>
           <li>1x Subject Session</li>
+          <li> </li>
 				</ul>
 			  </div>
 			</div>

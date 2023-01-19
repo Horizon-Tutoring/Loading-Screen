@@ -20,7 +20,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/">Horizon <span>Tutoring</span><a></h1>
+      <h1 class="logo"><a href="/">Horizon <span style="color: #D8B03B">Tutoring</span><a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="/" class="logo"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>-->
 
