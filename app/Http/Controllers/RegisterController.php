@@ -52,7 +52,7 @@ class RegisterController extends Controller
             $new->name = $request->input('name');
             $new->email = $request->input('email');
             $new->number = $request->input('number');
-            $new->no_of_students = $request->input('students');
+            // $new->no_of_students = $request->input('students');
             $new->marketing = 1;
             $new->comments = $request->input('text');
             $new->save();
@@ -67,14 +67,14 @@ class RegisterController extends Controller
                 'name'=>$request->input('name'),
                 'email'=>$request->input('email'),
                 'number'=>$request->input('number'),
-                'students'=>$request->input('students'),
+                // 'students'=>$request->input('students'),
                 'comments'=>$request->input('text'),
                 'userinfo'=>$deets->id
             ];
             Mail::to($request->input('email'))->send(new RegisterMail($data));
 
             $userCount = User::count();
-            $totalStudents = User::where('no_of_students', ">", 0)->sum('no_of_students');
+            // $totalStudents = User::where('no_of_students', ">", 0)->sum('no_of_students');
 
             //Email Executives about Registration!
             $email = 'executives@horizontutoring.com.au';
@@ -83,11 +83,11 @@ class RegisterController extends Controller
                 'subject'=>'Horizon Tutoring | New Customer Registered',
                 'name'=>$request->input('name'),
                 'email'=>$request->input('email'),
-                'students'=>$request->input('students'),
+                // 'students'=>$request->input('students'),
                 'number'=>$request->input('number'),
                 'comments'=>$request->input('text'),
                 'count'=>$userCount,
-                'total_students'=>$totalStudents
+                // 'total_students'=>$totalStudents
             ];
             Mail::to($email)->send(new RegisterMail($data2));
 
@@ -98,7 +98,7 @@ class RegisterController extends Controller
             $new = User::find($user->id);
             $new->name = $request->input('name');
             $new->email = $request->input('email');
-            $new->no_of_students = $request->input('students');;
+            // $new->no_of_students = $request->input('students');;
             $new->save();
 
             //Email Information about registration!
@@ -108,7 +108,7 @@ class RegisterController extends Controller
                 'name'=>$request->input('name'),
                 'email'=>$request->input('email'),
                 'marketing'=>$request->input('marketing'),
-                'students'=>$request->input('students')
+                // 'students'=>$request->input('students')
             ];
             Mail::to($request->input('email'))->send(new RegisterMail($data));
             

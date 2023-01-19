@@ -281,7 +281,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #106eea;
+  color: #D8B03B;
 }
 
 .navbar .dropdown ul {
@@ -315,7 +315,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #106eea;
+  color: #D8B03B;
 }
 
 .navbar .dropdown:hover>ul {
@@ -424,7 +424,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #106eea;
+  color: #D8B03B;
 }
 
 .navbar-mobile .getstarted,
@@ -472,17 +472,22 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#top {
-  height: 75vh;
+
+#hero {
   background-image: url("../img/logo.svg");
   background-size: cover;
-  background-position: 85%;
-  background-size: 45vw;
+  height: 90vh;
+  background-position: 50% 10%;
+  background-size: 50vw;
   background-repeat: no-repeat;
   position: relative;
 }
 
-#top:before {
+#hero .container {
+  text-align: center;
+}
+
+#hero:before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -491,27 +496,27 @@ h6 {
   right: 0;
 }
 
-#top h1 {
+#hero h1 {
   margin: 0;
-  font-size: 2vw;
+  font-size: 3vw;
   font-weight: 700;
   line-height: 5vh;
   color: white;
   font-family: "Poppins", sans-serif;
 }
 
-#top h1 span {
+#hero h1 span {
   color: #D8B03B;
 }
 
-#top h2 {
+#hero h2 {
   color: #555555;
   margin: 5px 0 30px 0;
   font-size: 24px;
   font-weight: 400;
 }
 
-#top .btn-get-started {
+#hero .btn-get-started {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
@@ -525,11 +530,11 @@ h6 {
   background: #106eea;
 }
 
-#top .btn-get-started:hover {
+#hero .btn-get-started:hover {
   background: #247cf0;
 }
 
-#top .btn-watch-video {
+#hero .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -539,7 +544,7 @@ h6 {
   align-items: center;
 }
 
-#top .btn-watch-video i {
+#hero .btn-watch-video i {
   color: #106eea;
   font-size: 32px;
   transition: 0.3s;
@@ -547,27 +552,50 @@ h6 {
   margin-right: 8px;
 }
 
-#top .btn-watch-video:hover {
+#hero .btn-watch-video:hover {
   color: #106eea;
 }
 
-#top .btn-watch-video:hover i {
+#hero .btn-watch-video:hover i {
   color: #3b8af2;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1250px) {
   #hero {
-    background-attachment: fixed;
+    height: 75vh;
+    background-size: cover;
+    background-position: 85%;
+    background-size: 45vw;
+    background-repeat: no-repeat;
+    position: relative;
   }
-}
 
-@media (max-width: 768px) {
-  #hero {
-    height: 100vh;
+  #hero .container {
+    text-align: left;
   }
 
   #hero h1 {
-    font-size: 28px;
+    font-size: 6vh;
+    line-height: 6vh;
+  }
+}
+
+
+@media (max-width: 1024) {
+  #hero {
+    height: 90vh;
+    background-position: 50% 10%;
+    background-size: 80vw;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  #hero .container {
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-size: 3vh;
     line-height: 36px;
   }
 
@@ -583,9 +611,24 @@ h6 {
   }
 }
 
-@media (max-height: 500px) {
+@media (max-width: 500px) {
   #hero {
-    height: 120vh;
+    height: 60vh;
+    background-position: 50% 10%;
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    position: relative;
+  }
+
+  #hero h1 {
+    margin: 0;
+    font-size: 7vw;
+    font-weight: 700;
+    line-height: 3vh;
+  }
+
+  #hero .container {
+    margin-top: 20vh;
   }
 }
 
