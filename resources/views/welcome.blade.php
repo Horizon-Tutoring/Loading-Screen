@@ -89,7 +89,7 @@
               </div>
 
               {{-- # of Children --}}
-              <div class="mb-3">
+              {{-- <div class="mb-3">
                 <label for="Students" class="form-label">Number of Children</label>
                 <select name="students" class="form-select">
                   <option value="1">One</option>
@@ -99,7 +99,7 @@
                   <option value="5">Five</option>
                   <option value="6">Six</option> 
                 </select>
-              </div>
+              </div> --}}
 
               {{-- Textarea --}}
               <div class="mb-3">
@@ -118,14 +118,12 @@
     </div>
 
   <!-- ======= Hero Section ======= -->
-  <section id="top" class="d-flex align-items-center" style="background-color: #152f78;">
+  <section id="hero" class="d-flex align-items-center" style="background-color: #152f78;">
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to</h1>
       <h1>Horizon <span>Tutoring</span></h1>
-      <div class="d-flex" style="margin-top: 20px; text-align: center;">
-        <button type="button" class="btn btn-primary" style="border-color: #D8B03B; width: 15vw; font-size: 2vw; border-width: 0.7vh; background-color: white; color: black" data-bs-toggle="modal" data-bs-target="#exampleModal">Register Your Interest</button>
+        <button type="button" class="btn btn-primary" style="margin-top: 20px; border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">GET YOUR FREE SESSION</button>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
-      </div>
     </div>
   </section><!-- End Hero -->
 
@@ -182,7 +180,7 @@
 
 
     <!-- ======= Services Section ======= -->
-    <section id="steps" class="services">
+    <section id="process" class="services">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -225,7 +223,7 @@
 
 
 	<!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
+    <section id="services" class="pricing section-bg">
 		<div class="container" data-aos="fade-up">
   
 		  <div class="section-title">

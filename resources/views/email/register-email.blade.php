@@ -81,7 +81,6 @@
         <p><strong>Name:</strong> {{$data['name']}}</p>
         <p><strong>Email:</strong> {{$data['email']}}</p>
         <p><strong>Number:</strong> {{$data['number']}}</p>
-        <p><strong>Number of Students:</strong> {{$data['students']}}</p><br>
         <p><strong>Comments:</strong> {{$data['comments']}}</p><br>
         <a color="black" href="mailto:info@horizontutoring.com.au" class="cta">Questions? Contact Us</a><br><br>
     </div><br>

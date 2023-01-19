@@ -23,12 +23,11 @@
 		<h1 style="color: #E27D60; font-size: 28px; margin-bottom: 20px;">New Customer Registration</h1>
 		<div class="content">
 		<p>Hello Executive Team,</p>
-		<p>We have received a new customer registration. We now have {{$data['count']}} interested families, with a potential of {{$data['total_students']}} students.
+		<p>We have received a new customer registration. We now have {{$data['count']}} interested families.
 			<h4><b>The Details:</b></h4>
 			<p><strong>Name:</strong> {{$data['name']}}</p>
 			<p><strong>Email:</strong> {{$data['email']}}</p>
 			<p><strong>Number:</strong> {{$data['number']}}</p>
-			<p><strong>Number of Students:</strong> {{$data['students']}}</p><br>
 			<p><strong>Comments:</strong> {{$data['comments']}}</p><br>
 		<br><p>Thank you,</p>
 		<p>Horizon Tutoring Admin System</p>
