@@ -27,12 +27,12 @@
       <nav id="navbar" class="navbar">
         <ul>
 		      <li><a class="nav-link scrollto" href="/#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="/#about">About</a></li>
+          <li><a class="nav-link scrollto" href="/#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="/#process">The Process</a></li>
           <li><a class="nav-link scrollto" href="/#services">Services</a></li>
 		      {{-- <li><a class="nav-link scrollto" href="/#steps">Steps</a></li>
           <li><a class="nav-link scrollto" href="/#pricing">Pricing</a></li> --}}
-          <li><a class="nav-link scrollto" href="/#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="/#team">Our Team</a></li>
           <li><button type="button" class="btn btn-primary" style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Find Out More
           </button></li>
