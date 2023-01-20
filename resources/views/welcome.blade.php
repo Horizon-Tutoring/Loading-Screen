@@ -58,7 +58,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Register your interest in Horizon Tutoring!</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Get your free access trial!</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <form action="register" method="GET">
@@ -66,7 +66,7 @@
           <div class="modal-body">
               {{-- Name Section --}}
               <div class="mb-3">
-                <label for="Name" class="form-label">Your Name*</label>
+                <label for="Name" class="form-label">Name*</label>
                 <input type="text" class="form-control" name="name" required>
               </div>
 
@@ -103,7 +103,7 @@
 
               {{-- Textarea --}}
               <div class="mb-3">
-                <label for="text" class="form-label">Put any questions here</label>
+                <label for="text" class="form-label">Put any of your questions here</label>
                 <textarea maxlength="500" class="form-control" name="text" required></textarea>
                 <div id="emailHelp" class="form-text">Max 1,000 characters</div>
               </div>            
