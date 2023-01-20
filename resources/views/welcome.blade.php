@@ -110,7 +110,7 @@
             </div>
 
           <div class="modal-footer">
-            <button type="button submit" class="btn btn-success">Register Interest</button>
+            <button type="button submit" class="btn btn-success" style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" >Lets Go!</button>
           </div>
         </form>
         </div>
@@ -150,21 +150,21 @@
             </p>
             <ul>
               <li>
-                <i class="bx bx-chalkboard"></i>
+                <i style="color:#152f78" class="bx bx-chalkboard"></i>
                 <div>
                   <h5>Top Tier Tutors</h5>
                   <p>Our tutors have been handpicked from high ATAR achievers, qualified educators, and experts in their fields.</p>
                 </div>
               </li>
               <li>
-                <i class="bx bx-calendar"></i>
+                <i style="color:#152f78" class="bx bx-calendar"></i>
                 <div>
                   <h5>Personalised Sessions</h5>
                   <p>Every child is unique. That’s why our tutors expertly tailor every session to your child to help them work at their best.</p>
                 </div>
               </li>
               <li>
-                <i class="bx bx-laptop"></i>
+                <i style="color:#152f78" class="bx bx-laptop"></i>
                 <div>
                   <h5>Online flexibility</h5>
                   <p>We understand how busy life can be. Our online tutors can accommodate a wide variety of times so you can always get your session in.</p>
@@ -184,17 +184,17 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Incredibly Easy Process</h2>
-          <h3>Easy navigation is our middle name!</h3>
+          <h2>The Process</h2>
+          <h3>We make it <span>easy</span> for you.</h3>
           <p>We have made it incredibly easy for you to begin your journey with us</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <div class="icon"><i class="bx bx-child"></i></div>
               <h4>Step 1</h4>
-              <p>Step 1 Description which includes significant information about the service that can be selected</p>
+              <p>Engage in a free trial session to see if the Horizon Tutoring Service fits the needs of your child.</p>
             </div>
           </div>
 
@@ -202,7 +202,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4>Step 2</h4>
-              <p>Step 2 Description which includes significant information about the service that can be selected</p>
+              <p>Begin weekly sessions focussed towards holistic regular checkin on your student. Focus on study habits, plans and assessment advice. Designed to equip your child with the foundational tools needed to succeed.</p>
             </div>
           </div>
 
@@ -210,7 +210,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4>Step 3</h4>
-			  <p>Step 3 Description which includes significant information about the service that can be selected</p>
+			        <p>Engage in course specific sessions designed to provide tagerted learning, and a draft review process to ensure your student has all the tools available to achieve their full potential.</p>
             </div>
           </div>
 
@@ -301,14 +301,14 @@
         <div class="section-title">
           <h2>Our Team</h2>
           <h3>Our Hardworking <span>Team</span></h3>
-          <p>Take a look at the team brining you Horizon Tutoring in 2023!</p>
+          <p>Take a look at the team working hard to make Horizon Tutoring happen.</p>
         </div>
         <div class="container" style="text-align: center">
           <div class="row">
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Gab Wilson</b></h3>
+                  <h3 class="card-title" style="color:#152f78"><b>Gab Wilson</b></h3>
                   <h6 class="card-text"><i>CEO & Founder</i></h6>
                 </div>
               </div>
@@ -324,7 +324,15 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Stepan Tkatchenko</b></h3>
+                  <h3 class="card-title" style="color:#152f78"><b>Joshua Micallef</b></h3>
+                  <h6 class="card-text"><i>Head Developer</i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title" style="color:#152f78"><b>Stepan Tkatchenko</b></h3>
                   <h6 class="card-text"><i>Director of Finance</i></h6>
                 </div>
               </div>
@@ -332,7 +340,7 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Isabella Chantrill</b></h3>
+                  <h3 class="card-title" style="color:#152f78"><b>Isabella Chantrill</b></h3>
                   <h6 class="card-text"><i>Director of Tutoring</i></h6>
                 </div>
               </div>
@@ -341,9 +349,11 @@
 
           <div class="row">
             <div class="col-md-3 mb-3">
+            </div>
+            <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Joe Grew</b></h3>
+                  <h3 class="card-title" style="color:#152f78"><b>Joe Grew</b></h3>
                   <h6 class="card-text"><i>Director of Human Resources</i></h6>
                 </div>
               </div>
@@ -351,15 +361,7 @@
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Joshua Micallef</b></h3>
-                  <h6 class="card-text"><i>Head Developer</i></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Taryn Morley</b></h3>
+                  <h3 class="card-title" style="color:#152f78"><b>Taryn Morley</b></h3>
                   <h6 class="card-text"><i>Head of Tutoring</i></h6>
                 </div>
               </div>
