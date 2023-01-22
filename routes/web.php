@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [PageController::class, 'index']);
 
 // Route::get('/admin/artisan/migrate', function () {
 //     Artisan::call('migrate:refresh');
@@ -25,4 +24,4 @@ Route::get('/register', 'App\Http\Controllers\RegisterController@store');
 
 Route::get('/unsubscribe/{id}', 'App\Http\Controllers\Subscribe@update');
 
-//Route::get('email', 'App\Http\Controllers\EmailController@index');
+//Route::get('email', 'App\Http\Controllers\EmailController@index');1

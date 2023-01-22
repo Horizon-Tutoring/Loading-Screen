@@ -53,70 +53,6 @@
     </div>
   @endif
 
-    <!-- Registration Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Get your free access trial!</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <form action="register" method="GET">
-            @csrf
-          <div class="modal-body">
-              {{-- Name Section --}}
-              <div class="mb-3">
-                <label for="Name" class="form-label">Name*</label>
-                <input type="text" class="form-control" name="name" required>
-              </div>
-
-              {{-- Email Address --}}
-              <div class="mb-3">
-                <label for="Email" class="form-label">Email Address*</label>
-                <input type="email" class="form-control @error('f_name') is-invalid @enderror" name="email" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                @error('email')
-                <span class="invalid-feedback" role="alert">
-                    <strong>{{ $message }}</strong>
-                </span>
-                @enderror
-              </div>
-
-              {{-- Phone Number --}}
-              <div class="mb-3">
-                <label for="number" class="form-label">Phone Number*</label>
-                <input type="tel" class="form-control" name="number" required>
-              </div>
-
-              {{-- # of Children --}}
-              {{-- <div class="mb-3">
-                <label for="Students" class="form-label">Number of Children</label>
-                <select name="students" class="form-select">
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                  <option value="4">Four</option>
-                  <option value="5">Five</option>
-                  <option value="6">Six</option> 
-                </select>
-              </div> --}}
-
-              {{-- Textarea --}}
-              <div class="mb-3">
-                <label for="text" class="form-label">Put any of your questions here</label>
-                <textarea maxlength="500" class="form-control" name="text" required></textarea>
-                <div id="emailHelp" class="form-text">Max 1,000 characters</div>
-              </div>            
-            </div>
-
-          <div class="modal-footer">
-            <button type="button submit" class="btn btn-success" style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" >Lets Go!</button>
-          </div>
-        </form>
-        </div>
-      </div>
-    </div>
-
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center" style="background-color: #152f78;">
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
@@ -153,7 +89,7 @@
                 <i style="color:#152f78" class="bx bx-chalkboard"></i>
                 <div>
                   <h5>Top Tier Tutors</h5>
-                  <p>Our tutors have been handpicked from high ATAR achievers, qualified educators, and experts in their fields.</p>
+                  <p>Our blue card accredited tutors have been handpicked from high ATAR achievers, qualified educators, and experts in their fields.</p>
                 </div>
               </li>
               <li>
@@ -301,7 +237,26 @@
 
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          {{-- <h2>Our Team</h2> --}}
+          <h3>Frequently Asked <span>Questions</span></h3>
+          <p></p>
+        </div>
+        <div class="container" style="text-align: center">
+          @foreach ($faq as $faq)
+          <h2>{{$faq->id}} | {{$faq->question}}</h2>
+          <p>{{$faq->answer}}</p><br>
+          @endforeach
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -316,7 +271,7 @@
               <div class="card h-100">
                 <div class="card-body">
                   <h3 class="card-title"><b>Gab Wilson</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
+                  <h6 class="card-text" style="color:#152f78"><i>Founder & Tutor</i></h6>
                 </div>
               </div>
             </div>
