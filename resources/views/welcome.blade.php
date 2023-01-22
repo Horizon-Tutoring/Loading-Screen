@@ -135,7 +135,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About Us</h2>
+          {{-- <h2>About Us</h2> --}}
           <h3>Find Out More <span>About Us</span></h3>
         </div>
 
@@ -184,7 +184,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>The Process</h2>
+          {{-- <h2>The Process</h2> --}}
           <h3>We make it <span>easy</span> for you.</h3>
           <p>We have made it incredibly easy for you to begin your journey with us</p>
         </div>
@@ -193,7 +193,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-child"></i></div>
-              <h4>Step 1</h4>
+              <h4>Step 1 | <span style="color: #D8B03B">Free Trial</span></h4>
               <p>Engage in a free trial session to see if the Horizon Tutoring Service fits the needs of your child.</p>
             </div>
           </div>
@@ -201,7 +201,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4>Step 2</h4>
+              <h4>Step 2 | <span style="color: #D8B03B">Weekly Focus Sessions</span></h4>
               <p>Begin weekly sessions focussed towards holistic regular checkin on your student. Focus on study habits, plans and assessment advice. Designed to equip your child with the foundational tools needed to succeed.</p>
             </div>
           </div>
@@ -209,7 +209,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4>Step 3</h4>
+              <h4>Step 3 | <span style="color: #D8B03B">Specific Sessions & Draft</span></h4>
 			        <p>Engage in course specific sessions designed to provide tagerted learning, and a draft review process to ensure your student has all the tools available to achieve their full potential.</p>
             </div>
           </div>
@@ -227,26 +227,26 @@
 		<div class="container" data-aos="fade-up">
   
 		  <div class="section-title">
-			<h2>Services</h2>
+			{{-- <h2>Services</h2> --}}
 			<h3>What we <span>Offer</span></h3>
 			<p>we provide competitive tutoring services with a range of offerings.</p>
 		  </div>
   
-		  <div class="row">
+		  <div class="row" style="padding-bottom: 20px;">
        
 			<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
 			  <div class="box">
           <h3 style="font-size: 30px;">Silver Package</h3>
 				<ul>
-				  <li>Regular Weekly Session <x class="check">✔</x></li>
-				  <li>Subject Session included <x class="check">✔</x></li>
+				  <li>Weekly Summary Session <x class="check">✔</x></li>
+				  <li>Weekly Focus Session included <x class="check">✔</x></li>
 				  <li>Drafting Service Included <x class="x">✘</x></li>
 				</ul>
 
         <p><b>Includes:</b></p>
         <ul>
           <li>1x Regular Session</li>
-          <li>1x Subject Session</li>
+          <li>1x Focus Session</li>
           <li> </li>
 				</ul>
 			  </div>
@@ -256,15 +256,15 @@
 			  <div class="box featured">
 				<h3 style="font-size: 30px;">Gold Package</h3>
 				<ul>
-				  <li>Regular Weekly Session <x class="check">✔</x></li>
-				  <li>Subject Session included <x class="check">✔</x></li>
+				  <li>Weekly Summary Session <x class="check">✔</x></li>
+				  <li>Weekly Focus Session included <x class="check">✔</x></li>
 				  <li>Drafting Service Included <x class="check">✔</x></li>
 				</ul>
 
         <p><b>Includes:</b></p>
         <ul>
           <li>1x Regular Session</li>
-          <li>2x Subject Session</li>
+          <li>2x Focus Sessions</li>
           <li>1x Comprehensive Draft Review</li>
 				</ul>
 			  </div>
@@ -272,23 +272,29 @@
   
 			<div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
 			  <div class="box">
-          <h3 style="font-size: 30px;">Platinum Package</h3>
+          <h3 style="font-size: 30px; color: white; background-color: #C0C0C0 ;">Platinum Package</h3>
           <ul>
-            <li>Regular Weekly Session <x class="check">✔</x></li>
-            <li>Subject Session included <x class="check">✔</x></li>
+            <li>Weekly Summary Session <x class="check">✔</x></li>
+            <li>Weekly Focus Session included <x class="check">✔</x></li>
             <li>Drafting Service Included <x class="check">✔</x></li>
           </ul>
   
           <p><b>Includes:</b></p>
           <ul>
             <li>1x Regular Session</li>
-            <li>4x Subject Session</li>
+            <li>4x Focus Sessions</li>
             <li>2x Comprehensive Draft Review</li>
           </ul>
 			  </div>
 			</div>
   
 		  </div>
+
+      {{-- <div class="row" style="text-align: center">
+        <button type="button" class="btn btn-primary" style="width: 40%; border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Get a quote now
+        </button>
+      </div> --}}
   
 		</div>
 	  </section><!-- End Pricing Section -->
@@ -299,70 +305,71 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Our Team</h2>
+          {{-- <h2>Our Team</h2> --}}
           <h3>Our Hardworking <span>Team</span></h3>
           <p>Take a look at the team working hard to make Horizon Tutoring happen.</p>
         </div>
         <div class="container" style="text-align: center">
           <div class="row">
+            <h3><b><u>Our Tutoring Team</u></b></h3>
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title" style="color:#152f78"><b>Gab Wilson</b></h3>
-                  <h6 class="card-text"><i>CEO & Founder</i></h6>
-                </div>
-              </div>
-            </div>
-            {{-- <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Hugo Burton</b></h3>
-                  <h6 class="card-text"><i>Director of Technology</i></h6>
-                </div>
-              </div>
-            </div> --}}
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title" style="color:#152f78"><b>Joshua Micallef</b></h3>
-                  <h6 class="card-text"><i>Head Developer</i></h6>
+                  <h3 class="card-title"><b>Gab Wilson</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
                 </div>
               </div>
             </div>
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title" style="color:#152f78"><b>Stepan Tkatchenko</b></h3>
-                  <h6 class="card-text"><i>Director of Finance</i></h6>
+                  <h3 class="card-title"><b>Isabella Chantrill</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
                 </div>
               </div>
             </div>
             <div class="col-md-3 mb-3">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title" style="color:#152f78"><b>Isabella Chantrill</b></h3>
-                  <h6 class="card-text"><i>Director of Tutoring</i></h6>
+                  <h3 class="card-title"><b>Joe Grew</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Taryn Morley</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-3 mb-3">
-            </div>
-            <div class="col-md-3 mb-3">
+
+          <div class="row" style="margin-top: 4vh;">
+            <h3><b><u>The Executive Team</u></b></h3>
+            <div class="col-md-4 mb-4">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title" style="color:#152f78"><b>Joe Grew</b></h3>
-                  <h6 class="card-text"><i>Director of Human Resources</i></h6>
+                  <h3 class="card-title"><b>Gab Wilson</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>CEO & Founder</i></h6>
                 </div>
               </div>
             </div>
-            <div class="col-md-3 mb-3">
+            <div class="col-md-4 mb-4">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title" style="color:#152f78"><b>Taryn Morley</b></h3>
-                  <h6 class="card-text"><i>Head of Tutoring</i></h6>
+                  <h3 class="card-title"><b>Joshua Micallef</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>Director of Technology</i></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h3 class="card-title"><b>Stepan Tkatchenko</b></h3>
+                  <h6 class="card-text" style="color:#152f78"><i>Director of Finance</i></h6>
                 </div>
               </div>
             </div>
@@ -395,7 +402,9 @@
             <ul>
               <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#hero">Home</a></li>
               <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#about">About us</a></li>
-              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#team">Team</a></li>
+              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#process">The Process</a></li>
+              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#services">Services</a></li>
+              <li><i class="bx bx-chevron-right scrollto"></i> <a href="/#team">Our Team</a></li>
             </ul>
           </div>
 
