@@ -34,7 +34,20 @@
       .check {
           color: green;
       }
+
+      .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col-md-4 {
+  width: 100%;
+  max-width: 33.33%;
+  text-align: center;
+}
     </style>
+
     <!-- =======================================================
     * Template Name: BizLand - v3.9.1
     * Template URL: https://bootstrapmade.com/bizland-bootstrap-business-template/
@@ -79,10 +92,10 @@
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <img src="{{asset('assets/img/about2.jpg')}}" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column" style="text-align: justify;" data-aos="fade-up" data-aos-delay="100">
             <h3>We care about our students.</h3>
-            <p class="fst-italic">
-              At Horizon Tutoring, we know you want the best for your child. So do we. That’s why we’ve built our services from the ground up to be the highest quality while being budget-friendly. 
+            <p>
+              At Horizon Tutoring, we know you want the best for your child. So do we. That is why we have built our services from the ground up to be the highest quality, provide individualised support when and where your child needs it.
             </p>
             <ul>
               <li>
@@ -96,14 +109,14 @@
                 <i style="color:#152f78" class="bx bx-calendar"></i>
                 <div>
                   <h5>Personalised Sessions</h5>
-                  <p>Every child is unique. That’s why our tutors expertly tailor every session to your child to help them work at their best.</p>
+                  <p>Every child is unique. Our tutors expertly tailor every session to your child to help them work at their best.</p>
                 </div>
               </li>
               <li>
                 <i style="color:#152f78" class="bx bx-laptop"></i>
                 <div>
                   <h5>Online flexibility</h5>
-                  <p>We understand how busy life can be. Our online tutors can accommodate a wide variety of times so you can always get your session in.</p>
+                  <p>We understand how busy life can be. Our tutors can accommodate a wide variety of times so you can always get your session in.</p>
                 </div>
               </li>
             </ul>
@@ -122,31 +135,31 @@
         <div class="section-title">
           {{-- <h2>The Process</h2> --}}
           <h3>We make it <span>easy</span> for you.</h3>
-          <p>We have made it incredibly easy for you to begin your journey with us</p>
+          {{-- <p>We have made it incredibly easy for you to begin your journey with us</p> --}}
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-child"></i></div>
-              <h4>Step 1 | <span style="color: #D8B03B">Free Trial</span></h4>
-              <p>Engage in a free trial session to see if the Horizon Tutoring Service fits the needs of your child.</p>
+            <div class="icon-box" style="padding: 20px;">
+              <img src="{{asset('assets/img/free_trial.jpg')}}" alt="Subject Sessions and Drafting" style="width: 100%; object-fit: contain; padding-bottom: 20px;">
+              <h2  style="color: #D8B03B">Step One <br><h4><span style="color: #152f78">Free Trial</span></h4></h2>
+              <p style="text-align: justify;">Enjoy a free trial session, get to know one of our tutors and discuss your student’s individual goals and challenges.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4>Step 2 | <span style="color: #D8B03B">Weekly Focus Sessions</span></h4>
-              <p>Begin weekly sessions focussed towards holistic regular checkin on your student. Focus on study habits, plans and assessment advice. Designed to equip your child with the foundational tools needed to succeed.</p>
+            <div class="icon-box" style="padding: 20px;">
+              <img src="{{asset('assets/img/weekly_focus.jpg')}}" alt="Subject Sessions and Drafting" style="width: 100%; object-fit: contain; padding-bottom: 20px;">
+              <h2 style="color: #D8B03B">Step Two <br><h4><span style="color: #152f78">Weekly Focus Sessions</span></h4></h2>
+              <p style="text-align: justify;">Designed to equip your child with the foundational tools needed to succeed, our holistic regular check-ins combine the consistency of the same tutor every call with personalised advice centred on effective study habits.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4>Step 3 | <span style="color: #D8B03B">Specific Sessions & Draft</span></h4>
-			        <p>Engage in course specific sessions designed to provide tagerted learning, and a draft review process to ensure your student has all the tools available to achieve their full potential.</p>
+            <div class="icon-box" style="padding: 20px;">
+              <img src="{{asset('assets/img/step_3.jpg')}}" alt="Subject Sessions and Drafting" style="width: 100%; object-fit: contain; padding-bottom: 20px;">
+              <h2 style="color: #D8B03B">Step Three <br><h4><span style="color: #152f78">Subject Sessions and Drafting</span></h4></h2>
+                <p style="text-align: justify;">Utilize our tutor’s expert knowledge across a broad range of specific subjects with class content and drafting of their assignments.</p>
             </div>
           </div>
 
@@ -155,85 +168,6 @@
 
       </div>
     </section><!-- End Services Section -->
-
-
-
-	<!-- ======= Pricing Section ======= -->
-    <section id="services" class="pricing section-bg">
-		<div class="container" data-aos="fade-up">
-  
-		  <div class="section-title">
-			{{-- <h2>Services</h2> --}}
-			<h3>What we <span>Offer</span></h3>
-			<p>we provide competitive tutoring services with a range of offerings.</p>
-		  </div>
-  
-		  <div class="row" style="padding-bottom: 20px;">
-       
-			<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-			  <div class="box">
-          <h3 style="font-size: 30px;">Silver Package</h3>
-				<ul>
-				  <li>Weekly Summary Session <x class="check">✔</x></li>
-				  <li>Weekly Focus Session included <x class="check">✔</x></li>
-				  <li>Drafting Service Included <x class="x">✘</x></li>
-				</ul>
-
-        <p><b>Includes:</b></p>
-        <ul>
-          <li>1x Regular Session</li>
-          <li>1x Focus Session</li>
-          <li> </li>
-				</ul>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-			  <div class="box featured">
-				<h3 style="font-size: 30px;">Gold Package</h3>
-				<ul>
-				  <li>Weekly Summary Session <x class="check">✔</x></li>
-				  <li>Weekly Focus Session included <x class="check">✔</x></li>
-				  <li>Drafting Service Included <x class="check">✔</x></li>
-				</ul>
-
-        <p><b>Includes:</b></p>
-        <ul>
-          <li>1x Regular Session</li>
-          <li>2x Focus Sessions</li>
-          <li>1x Comprehensive Draft Review</li>
-				</ul>
-			  </div>
-			</div>
-  
-			<div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-			  <div class="box">
-          <h3 style="font-size: 30px; color: white; background-color: #C0C0C0 ;">Platinum Package</h3>
-          <ul>
-            <li>Weekly Summary Session <x class="check">✔</x></li>
-            <li>Weekly Focus Session included <x class="check">✔</x></li>
-            <li>Drafting Service Included <x class="check">✔</x></li>
-          </ul>
-  
-          <p><b>Includes:</b></p>
-          <ul>
-            <li>1x Regular Session</li>
-            <li>4x Focus Sessions</li>
-            <li>2x Comprehensive Draft Review</li>
-          </ul>
-			  </div>
-			</div>
-  
-		  </div>
-
-      {{-- <div class="row" style="text-align: center">
-        <button type="button" class="btn btn-primary" style="width: 40%; border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
-          Get a quote now
-        </button>
-      </div> --}}
-  
-		</div>
-	  </section><!-- End Pricing Section -->
 
 
     <!-- ======= Team Section ======= -->
@@ -245,14 +179,101 @@
           <h3>Frequently Asked <span>Questions</span></h3>
           <p></p>
         </div>
-        <div class="container" style="text-align: center">
+        <div class="container" style="text-align: justify">
           @foreach ($faq as $faq)
-          <h2>{{$faq->id}} | {{$faq->question}}</h2>
-          <p>{{$faq->answer}}</p><br>
-          @endforeach
+          <div class="row" style="margin-bottom: 20px; display: flex; align-items: center;">
+            <div class="col-md-3" style="text-align: center;">
+              @empty(!$faq->atribute)<a href="{{$faq->atribute}}" target="_blank">@endempty<img style="width: 80%" src="{{asset($faq->image)}}"> @empty(!$faq->atribute)</a>@endempty
+            </div>
+            <div class="col-md-9" style="vertical-align: middle;">
+                <h2>{{$faq->id}} | {{$faq->question}}</h2>
+                <p>{{$faq->answer}}</p>
+            </div>
+          </div>
+              
+              @endforeach
+         
         </div>
       </div>
     </section><!-- End Team Section -->
+
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="services" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+    
+        <div class="section-title">
+        {{-- <h2>Services</h2> --}}
+        <h3>What We <span>Offer</span></h3>
+        <p>We provide competitive tutoring services with a range of offerings.</p>
+        </div>
+    
+        <div class="row" style="padding-bottom: 20px;">
+         
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="box">
+            <h3 style="font-size: 30px; color: white; background-color: #C0C0C0 ;">Silver Package</h3>
+          <ul>
+            <li>Weekly Summary Session <x class="check">✔</x></li>
+            <li>Weekly Focus Session included <x class="check">✔</x></li>
+            <li>Drafting Service Included <x class="x">✘</x></li>
+          </ul>
+  
+          <p><b>Includes:</b></p>
+          <ul>
+            <li>1x Regular Session</li>
+            <li>1x Focus Session</li>
+            <li style="color:white;">0x Comprehensive Draft Review</li> </li>
+          </ul>
+          </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="box featured">
+          <h3 style="font-size: 30px;">Gold Package</h3>
+          <ul>
+            <li>Weekly Summary Session <x class="check">✔</x></li>
+            <li>Weekly Focus Session included <x class="check">✔</x></li>
+            <li>Drafting Service Included <x class="check">✔</x></li>
+          </ul>
+  
+          <p><b>Includes:</b></p>
+          <ul>
+            <li>1x Regular Session</li>
+            <li>2x Focus Sessions</li>
+            <li>1x Comprehensive Draft Review</li>
+          </ul>
+          </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="box">
+            <h3 style="font-size: 30px; color: white; background-color: #152f78;">Platinum Package</h3>
+            <ul>
+              <li>Weekly Summary Session <x class="check">✔</x></li>
+              <li>Weekly Focus Session included <x class="check">✔</x></li>
+              <li>Drafting Service Included <x class="check">✔</x></li>
+            </ul>
+    
+            <p><b>Includes:</b></p>
+            <ul>
+              <li>1x Regular Session</li>
+              <li>4x Focus Sessions</li>
+              <li>2x Comprehensive Draft Review</li>
+            </ul>
+          </div>
+        </div>
+    
+        </div>
+  
+        {{-- <div class="row" style="text-align: center">
+          <button type="button" class="btn btn-primary" style="width: 40%; border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Get a quote now
+          </button>
+        </div> --}}
+    
+      </div>
+      </section><!-- End Pricing Section -->
 
 
     <!-- ======= Team Section ======= -->
@@ -265,72 +286,21 @@
           <p>Take a look at the team working hard to make Horizon Tutoring happen.</p>
         </div>
         <div class="container" style="text-align: center">
+          {{-- <img class="mb-4" style="width: 50%;" src="{{asset('assets/img/team-all.jpg')}}"> --}}
           <div class="row">
-            <h3><b><u>Our Tutoring Team</u></b></h3>
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Gab Wilson</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Founder & Tutor</i></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Isabella Chantrill</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Joe Grew</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3 mb-3">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Taryn Morley</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Tutor</i></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="row" style="margin-top: 4vh;">
-            <h3><b><u>The Executive Team</u></b></h3>
+            @foreach($staff as $staff)
+            @empty($staff->dont_show)
             <div class="col-md-4 mb-4">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title"><b>Gab Wilson</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>CEO & Founder</i></h6>
+                  <h3 class="card-title" style="color:#D8B03B"><b>{{$staff->name}}</b></h3>
+                  <h5 class="card-text" style="color:#152f78;"><i>{{$staff->position}}</i></h5>
+                  <p style="font-size: small;">{{$staff->bio}}</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Joshua Micallef</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Director of Technology</i></h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 mb-4">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h3 class="card-title"><b>Stepan Tkatchenko</b></h3>
-                  <h6 class="card-text" style="color:#152f78"><i>Director of Finance</i></h6>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
+            @endempty
+            @endforeach
         </div>
       </div>
     </section><!-- End Team Section -->

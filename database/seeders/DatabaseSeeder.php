@@ -16,18 +16,21 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         FAQ::create([
-            'question'=>'How do I get started?',
-            'answer'=>'Getting started is very simple with Horizon Tutoring. Click the "Find Out More" button in the navigation bar to get started, and take a look at our process above!',
+            'question'=>'What subjects do we offer?',
+            'image'=>'assets/img/faq_subjects.jpg',
+            'atribute'=>'https://www.freepik.com/free-vector/book-with-lighbulb-cartoon-vector-icon-illustration-object-education-icon-concept-isolated-premium-vector-flat-cartoon-style_21948351.htm#query=school%20subjects&position=11&from_view=search&track=sph%22%3EImage',
+            'answer'=>'Here at Horizon we have expert tutors in a broad range of subjects including but not limited to; English, Maths, Biology, History, Chemistry, Economics, Psychology and Music. Ask us in our ‘Find Out More’ tab for any specific subjects of interest to your student',
         ]);
 
         FAQ::create([
-            'question'=>'How much is the service?',
-            'answer'=>'We will give you a call with information about our service prices. This will allow for us to tailor our services to fit your budget.',
+            'question'=>'How long are our sessions?',
+            'image'=>'assets/img/faq_sessions.jpg',
+            'atribute'=>'https://www.freepik.com/free-vector/stopwatch-timer-cartoon-icon-illustration_11759983.htm#query=timer&position=2&from_view=search&track=sph%22%3EImage',
+            'answer'=>'Our sessions have been designed around a 25 minute timeframe as the ideal length to achieve your desired outcomes while being able to keep your child focused and limit wasted time.',
         ]);
 
-        FAQ::create([
-            'question'=>'Why should I pick you over the competition?',
-            'answer'=>"Unlike the competition, we have a genuine, driven passion to see your child reach their maximum potential, which is why we have weekly catch-up sessions to check on your child's progress.",
+        $this->call([
+            StaffSeeder::class,
         ]);
     }
 }
