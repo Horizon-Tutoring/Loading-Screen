@@ -171,7 +171,7 @@
 
 
     <!-- ======= Team Section ======= -->
-    <section id="faq" class="faq">
+    <section id="faq" class="faq section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -199,7 +199,7 @@
 
 
     <!-- ======= Pricing Section ======= -->
-    <section id="services" class="pricing section-bg">
+    <section id="services" class="pricing">
       <div class="container" data-aos="fade-up">
     
         <div class="section-title">
