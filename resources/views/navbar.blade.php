@@ -20,7 +20,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="/">Horizon <span style="color: #D8B03B">Tutoring</span><a></h1>
+      <h1 class="logo"><a href="/"><x  style="color: #152f78" >Horizon</x> <span style="color: #D8B03B">Tutoring</span><a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="/" class="logo"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>-->
 
@@ -29,8 +29,8 @@
 		      <li><a class="nav-link scrollto" href="/#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="/#about">About Us</a></li>
           <li><a class="nav-link scrollto" href="/#process">The Process</a></li>
-          <li><a class="nav-link scrollto" href="/#services">Services</a></li>
           <li><a class="nav-link scrollto" href="/#faq">FAQ</a></li>
+          <li><a class="nav-link scrollto" href="/#services">Services</a></li>
           <li><a class="nav-link scrollto" href="/#team">Our Team</a></li>
           <li><button type="button" class="btn btn-primary" style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Find Out More

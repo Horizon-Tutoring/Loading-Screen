@@ -474,7 +474,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #hero {
-  background-image: url("../img/logo-nb.png");
+  background-image: url("../img/logo-no-background.png");
   background-size: cover;
   height:60vh;
   background-position: 50% 10%;
