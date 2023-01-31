@@ -214,15 +214,15 @@
           <div class="box">
             <h3 style="font-size: 30px; color: white; background-color: #C0C0C0 ;">Silver Package</h3>
           <ul>
-            <li>Weekly Summary Session <x class="check">✔</x></li>
-            <li>Weekly Focus Session included <x class="check">✔</x></li>
-            <li>Drafting Service Included <x class="x">✘</x></li>
+            <li>Weekly Focus Session <x class="check">✔</x></li>
+            <li>Weekly Subject Session included <x class="check">✔</x></li>
+            <li>Weekly Drafting Service Included <x class="x">✘</x></li>
           </ul>
   
           <p><b>Includes:</b></p>
           <ul>
-            <li>1x Regular Session</li>
             <li>1x Focus Session</li>
+            <li>1x Subject Sessions</li>
             <li style="color:white;">0x Comprehensive Draft Review</li> </li>
           </ul>
           </div>
@@ -232,15 +232,15 @@
           <div class="box featured">
           <h3 style="font-size: 30px;">Gold Package</h3>
           <ul>
-            <li>Weekly Summary Session <x class="check">✔</x></li>
-            <li>Weekly Focus Session included <x class="check">✔</x></li>
-            <li>Drafting Service Included <x class="check">✔</x></li>
+            <li>Weekly Focus Session <x class="check">✔</x></li>
+            <li>Weekly Subject Session included <x class="check">✔</x></li>
+            <li>Weekly Drafting Service Included <x class="check">✔</x></li>
           </ul>
   
           <p><b>Includes:</b></p>
           <ul>
-            <li>1x Regular Session</li>
-            <li>2x Focus Sessions</li>
+            <li>1x Focus Session</li>
+            <li>2x Subject Sessions</li>
             <li>1x Comprehensive Draft Review</li>
           </ul>
           </div>
@@ -250,15 +250,15 @@
           <div class="box">
             <h3 style="font-size: 30px; color: white; background-color: #152f78;">Platinum Package</h3>
             <ul>
-              <li>Weekly Summary Session <x class="check">✔</x></li>
-              <li>Weekly Focus Session included <x class="check">✔</x></li>
-              <li>Drafting Service Included <x class="check">✔</x></li>
+              <li>Weekly Focus Session <x class="check">✔</x></li>
+              <li>Weekly Subject Session included <x class="check">✔</x></li>
+              <li>Weekly Drafting Service Included <x class="check">✔</x></li>
             </ul>
     
             <p><b>Includes:</b></p>
             <ul>
-              <li>1x Regular Session</li>
-              <li>4x Focus Sessions</li>
+              <li>1x Focus Session</li>
+              <li>4x Subject Sessions</li>
               <li>2x Comprehensive Draft Review</li>
             </ul>
           </div>
