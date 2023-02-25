@@ -71,6 +71,7 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to</h1>
       <h1>Horizon <span>Tutoring</span></h1>
+      <h5 style="color: white;"><i>Coming in Term 2, 2023</i></h5>
         <button type="button" class="btn btn-primary" style="margin-top: 20px; border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">GET YOUR FREE SESSION</button>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
     </div>
@@ -290,7 +291,7 @@
           <div class="row">
             @foreach($staff as $staff)
             @empty($staff->dont_show)
-            <div class="col-md-4 mb-4">
+            <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100">
                 <div class="card-body">
                   <h3 class="card-title" style="color:#D8B03B"><b>{{$staff->name}}</b></h3>
