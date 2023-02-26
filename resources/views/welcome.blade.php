@@ -223,8 +223,8 @@
           <p><b>Includes:</b></p>
           <ul>
             <li>1x Focus Session</li>
-            <li>1x Subject Sessions</li>
-            <li style="color:white;">0x Comprehensive Draft Review</li> </li>
+            <li>1x Subject Session</li>
+            <li style="color:transparent;;">0x Comprehensive Draft Review</li> </li>
           </ul>
           </div>
         </div>
