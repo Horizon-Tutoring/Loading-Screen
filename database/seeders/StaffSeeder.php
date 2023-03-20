@@ -30,12 +30,12 @@ class StaffSeeder extends Seeder
         Staff::create([
             'name' => 'Stepan Tkatchenko',
             'position' => 'Chief Finance Officer',
-            'bio' => '',
+            'bio' => 'As a current student of a dual degree in Law and Business, Stepan is the forefront specialist in finance and legal matters for Horizon Tutoring. Also passionate in the humanities fields, Stepan has long-term experience in Guild and AMEB piano theory and practical tutoring, as well as extensive knowledge on the subjects of History, Legal Studies, English and Economics.',
         ]);
 
         Staff::create([
             'name' => 'Isabella Chantrill',
-            'position' => 'Tutor',
+            'position' => 'Director of Tutoring',
             'bio' => 'A UQ graduate with over seven years of tutoring experience, Isabella is one of our head tutors specialising in Science and English tutoring. A passionate tutor, Isabella has worked to support students with diverse learning needs such as English Second Language (ESL) students and students with ADHD.',
         ]);
     }
