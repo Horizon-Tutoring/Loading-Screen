@@ -36,16 +36,16 @@
       }
 
       .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
 
-.col-md-4 {
-  width: 100%;
-  max-width: 33.33%;
-  text-align: center;
-}
+        .col-md-4 {
+          width: 100%;
+          max-width: 33.33%;
+          text-align: center;
+        }
     </style>
 
     <!-- =======================================================
@@ -287,15 +287,15 @@
           <p>Take a look at the team working hard to make Horizon Tutoring happen.</p>
         </div>
         <div class="container" style="text-align: center">
-          {{-- <img class="mb-4" style="width: 50%;" src="{{asset('assets/img/team-all.jpg')}}"> --}}
+          <img class="mb-4" style="width: 45%;" src="{{asset('assets/img/team_image.jpg')}}">
           <div class="row">
             @foreach($staff as $staff)
             @empty($staff->dont_show)
             <div class="col-lg-4 col-sm-6 mb-4">
               <div class="card h-100">
                 <div class="card-body">
-                  <h3 class="card-title" style="color:#D8B03B"><b>{{$staff->name}}</b></h3>
-                  <h5 class="card-text" style="color:#152f78;"><i>{{$staff->position}}</i></h5>
+                  <h3 class="card-title" style="color:#152f78"><b>{{$staff->name}}</b></h3>
+                  <h5 class="card-text" style="color:#D8B03B;"><i>{{$staff->position}}</i></h5>
                   <p style="font-size: small;">{{$staff->bio}}</p>
                 </div>
               </div>
@@ -341,10 +341,8 @@
             <h4>Our Social Networks</h4>
             <p>Take a look at our social networks to keep up to date!</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
               <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
               <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
               <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
