@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
-    <title>Horizon Tutoring - Coming Soon</title>
+    <title>Horizon Tutoring</title>
     <meta content=" At Horizon Tutoring, our mission is to help students of all ages and abilities achieve their academic goals. We offer a wide range of services, including one-on-one tutoring, homework help, and personalized learning plans. Our team of experienced tutors is dedicated to providing the best possible support to our students." name="description">
     <meta content="Tutoring, 1Strp1, Horizon Tutoring, Horizon, Tutoring Horizon" name="keywords">
   
@@ -71,7 +71,6 @@
     <div class="container" data-aos="zoom-out" data-aos-delay="250">
       <h1>Welcome to</h1>
       <h1>Horizon <span>Tutoring</span></h1>
-      <h5 style="color: white;"><i>Coming in Term 2, 2023</i></h5>
         <button type="button" class="btn btn-primary" style="margin-top: 20px; border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">GET YOUR FREE SESSION</button>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
     </div>
@@ -341,9 +340,9 @@
             <h4>Our Social Networks</h4>
             <p>Take a look at our social networks to keep up to date!</p>
             <div class="social-links mt-3">
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a target="_blank" href="https://www.facebook.com/profile.php?id=100091447267090" class="facebook"><i class="bx bxl-facebook"></i></a>
+              {{-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
             </div>
           </div>
 

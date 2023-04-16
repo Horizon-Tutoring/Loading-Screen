@@ -16,6 +16,8 @@
     </div>
   </section> --}}
 
+  
+
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
@@ -35,6 +37,13 @@
           <li><button type="button" class="btn btn-primary" style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Find Out More
           </button></li>
+          <li>
+            <button type="button" class="btn btn-primary" 
+                    style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;"
+                    id="login-btn">
+              Login / Signup
+            </button>
+          </li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -100,9 +109,16 @@
           </div>
 
         <div class="modal-footer">
-          <button type="button submit" class="btn btn-success" style="border-color: #D8B03B; border-width: 0.7vh; background-color: #D8B03B; color: white; font-weight: bold;" >Lets Go!</button>
+          <button type="button submit" class="btn btn-success" style="border-color: #152f78; border-width: 0.7vh; background-color: #152f78; color: white; font-weight: bold;" >Lets Go!</button>
         </div>
       </form>
       </div>
     </div>
   </div>
+
+  <script>
+    const loginBtn = document.getElementById('login-btn');
+    loginBtn.addEventListener('click', () => {
+      window.location.href = 'http://sso.horizontutoring.com.au/login';
+    });
+  </script>
