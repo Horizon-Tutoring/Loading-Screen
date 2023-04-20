@@ -95,7 +95,7 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column" style="text-align: justify;" data-aos="fade-up" data-aos-delay="100">
             <h3>We care about our students.</h3>
             <p>
-              At Horizon Tutoring, we know you want the best for your child. So do we. That is why we have built our services from the ground up to be the highest quality, provide individualised support when and where your child needs it.
+              At Horizon Tutoring, we know you want the best for your child. So do we. That is why we have built our services from the ground up; to provide the highest quality, individualised support when and where your child needs it.
             </p>
             <ul>
               <li>
@@ -341,8 +341,8 @@
             <p>Take a look at our social networks to keep up to date!</p>
             <div class="social-links mt-3">
               <a target="_blank" href="https://www.facebook.com/profile.php?id=100091447267090" class="facebook"><i class="bx bxl-facebook"></i></a>
-              {{-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
+              {{-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> --}}
+              <a target="_blank" href="https://www.linkedin.com/company/horizon-tutoring-co/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
