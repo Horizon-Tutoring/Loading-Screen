@@ -20,6 +20,8 @@ Route::get('/', [PageController::class, 'index']);
 //     Artisan::call('migrate:refresh');
 // });
 
+Route::get('/0766377760', 'App\Http\Controllers\RegisterController@PosterView');
+
 Route::get('/register', 'App\Http\Controllers\RegisterController@store');
 
 Route::get('/unsubscribe/{id}', 'App\Http\Controllers\Subscribe@update');
