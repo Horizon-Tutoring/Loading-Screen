@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\App;
 use App\Models\PosterView;
 use App\Models\User;
+use App\Models\API;
 use Mail;
 use Carbon\Carbon;
 use App\Mail\RegisterMail;
@@ -81,9 +82,14 @@ class RegisterController extends Controller
             $color = "3aeb34";
             $footer = Carbon::now('Australia/Brisbane')->format('d/m @ H:i');
             
-            $request = Request::create('/admin/post/discord/live', 'POST', ['message' => $message, 'title' => $title, 'color' => $color, 'footer' => $footer]);
-            $controller = new DiscordController();
-            $controller->postMessage($request);
+            API::create([
+                'type' => '1', //Embed
+                'channel' => '1', //Web Notifications
+                'title' => $title,
+                'content' => $message,
+                'color' => $color,
+                'footer' => $footer,
+            ]);
 
             return redirect('/')->with('success', 'Congratulations! You have successfully registered your interest with Horizon Tutoring!');
             
