@@ -81,11 +81,13 @@ class RegisterController extends Controller
             $message = $request->name . " has registered interest to join Horizon Tutoring! \n Please check your email for further details!";
             $color = "3aeb34";
             $footer = Carbon::now('Australia/Brisbane')->format('d/m @ H:i');
+            $role = "<@&1112728982916436058>";
             
             API::create([
                 'type' => '1', //Embed
                 'channel' => '1', //Web Notifications
                 'title' => $title,
+                'message' => $role,
                 'content' => $message,
                 'color' => $color,
                 'footer' => $footer,

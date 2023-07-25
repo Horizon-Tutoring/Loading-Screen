@@ -19,6 +19,7 @@ class API extends Model
         'type',
         'channel',
         'title',
+        'message',
         'content',
         'color',
         'footer',
